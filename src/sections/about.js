@@ -1,21 +1,38 @@
 import React from 'react'
 
+import { graphql, useStaticQuery } from "gatsby"
+
+
 const About = () => {
+    const data = useStaticQuery(graphql`
+      query {
+        allMarkdownRemark {
+          edges {
+            node {
+              html
+            }
+          }
+        }
+      }
+    `)
+
+
     return (
       <section class="resume-section" id="about">
         <div class="resume-section-content">
           <h1 class="mb-0">
             Vincent
-            <span class="text-primary" style={{"margin-left": "20px"}}>Dutordoir</span>
+            <span class="text-primary" style={{ "margin-left": "20px" }}>
+              Dutordoir
+            </span>
           </h1>
           <div class="subheading mb-5">
             Senior Machine Learning Researcher in Probabilistic Modelling
           </div>
           <p class="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          <div
+            dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
+          />
           </p>
           <div class="social-icons">
             <a class="social-icon" href="#">
@@ -37,3 +54,5 @@ const About = () => {
 }
 
 export default About
+
+
