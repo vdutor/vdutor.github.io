@@ -6,16 +6,11 @@ import { graphql, useStaticQuery } from "gatsby"
 const About = () => {
     const data = useStaticQuery(graphql`
       query {
-        allMarkdownRemark {
-          edges {
-            node {
-              html
-            }
-          }
+        markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
+          html
         }
       }
     `)
-
 
     return (
       <section class="resume-section" id="about">
@@ -31,7 +26,7 @@ const About = () => {
           </div>
           <p class="lead mb-5">
           <div
-            dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
+            dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
           </p>
           <div class="social-icons">
