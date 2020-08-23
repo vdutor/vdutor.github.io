@@ -1,6 +1,6 @@
 import React from "react"
 
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 
 
 import Publication from "../components/publication"
@@ -14,22 +14,21 @@ const Publications = () => {
         allReference {
         edges {
             node {
-            entry_type
+            key
             title
             authors
             author
+            booktitle
+            year
             raw
             pdf
             url
-            thumbnail
-            abstract
             }
         }
         }
     }
     `)
 
-    console.log(JSON.stringify(data))
     return (
       <section className="resume-section" id="publications">
         <div className="resume-section-content">
@@ -37,7 +36,17 @@ const Publications = () => {
           {data.allReference.edges.map(edge => {
             return <Publication data={edge.node}></Publication>
           })}
+          <div class="text-center">
+            <Link
+              target="_blank"
+              className="btn btn-outline-secondary"
+              role="button"
+              to="https://scholar.google.com/citations?user=JXzAGfoAAAAJ&hl=en"
+            >
+              See all publications (Google scholar)
+            </Link>
           </div>
+        </div>
       </section>
     )
 }

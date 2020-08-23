@@ -1,71 +1,64 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
-// const Modal = () => {
-//     return (
-//       <div
-//         class="modal fade"
-//         id="exampleModalCenter"
-//         tabindex="-1"
-//         role="dialog"
-//         aria-labelledby="exampleModalCenterTitle"
-//         aria-hidden="true"
-//       >
-//         <div class="modal-dialog modal-dialog-centered" role="document">
-//           <div class="modal-content">
-//             <div class="modal-header">
-//               <h5 class="modal-title" id="exampleModalLongTitle">
-//                 Modal title
-//               </h5>
-//               <button
-//                 type="button"
-//                 class="close"
-//                 data-dismiss="modal"
-//                 aria-label="Close"
-//               >
-//                 <span aria-hidden="true">&times;</span>
-//               </button>
-//             </div>
-//             <div class="modal-body">...</div>
-//             <div class="modal-footer">
-//               <button
-//                 type="button"
-//                 class="btn btn-secondary"
-//                 data-dismiss="modal"
-//               >
-//                 Close
-//               </button>
-//               <button type="button" class="btn btn-primary">
-//                 Save changes
-//               </button>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     )
-// }
+
+function extractShortNameFromBooktitle(booktitle) {
+  // Assumes the short name of a conference is inside paranthesis
+  // Example: booktitle: International Conference on Machine Learning (ICML)
+  // return: ICML
+  return booktitle.match(/\(([^)]+)\)/)[1];
+}
 
 const Publication = (props) => {
     console.log(props.data.authors)
     return (
       <div className="card">
-        {/* <img className="card-img-top" width='50' src="https://cdn2.iconfinder.com/data/icons/toilet/520/10-256.png" alt="Card image cap"></img> */}
         <div className="card-body">
+          <div className="card-badge">
+            {extractShortNameFromBooktitle(props.data.booktitle)}
+          </div>
           <h5 className="card-title">{props.data.title}</h5>
+          <p class="card-subtitle mb-2 text-muted">
+            {props.data.booktitle}, {props.data.year}
+          </p>
           <p className="card-text">
             {props.data.authors.map((item, index) => {
               return (
-                <span key={`author_${index}`}>
-                  {(index ? ", " : "") +
-                    (item == "Vincent Dutordoir" ? item : item)}
+                <span key={`author_${props.data.key}_${index}`}>
+                  {index ? ", " : ""}
+                  {item == "Vincent Dutordoir" ? <strong>{item}</strong> : item}
                 </span>
               )
             })}
           </p>
-          <a class="btn btn-light" href={props.data.url} role="button">
+          <Link
+            key={`paper_btn_${props.data.key}`}
+            target="_blank"
+            className="btn btn-light"
+            to={props.data.url}
+            role="button"
+          >
+            Paper
+          </Link>
+          <a
+            key={`pdf_btn_${props.data.key}`}
+            target="_blank"
+            className="btn btn-light"
+            href={props.data.pdf}
+            role="button"
+          >
             PDF
           </a>
-          <button type="button" class="btn btn-light">
-            Bibtex
+          <button
+            key={`bibtex_btn_${props.data.key}`}
+            type="button"
+            className="btn btn-light"
+            onClick={() => {
+              navigator.clipboard.writeText(props.data.raw)
+              alert("Successfully copied bibtex to clipboard")
+            }}
+          >
+            Copy Bibtex to Clipboard
           </button>
         </div>
       </div>

@@ -1,26 +1,66 @@
-@inproceedings{dutordoir2018gaussian,
-  title={Gaussian Process Conditional Density Estimation},
-  author={Dutordoir, Vincent and Salimbeni, Hugh and Deisenroth, Marc and Hensman, James},
-  booktitle={Advances in Neural Information Processing Systems. (NeurIPS)},
-  year={2018},
-  pdf={www.gooogle.com},
-  url={www.gooogle.com},
-  thumbnail={google.jpg},
-  abstract={Tbis is the abstract...}
+@inproceedings{dutordoir2020b,
+  title={Sparse Gaussian Processes with Spherical Harmonic Features},
+  author={Dutordoir, Vincent and Durrance, Nicolas and Hensman, James},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2020},
+  url={https://arxiv.org/abs/2006.16649},
+  pdf={https://arxiv.org/pdf/2006.16649.pdf},
 }
 
-@inproceedings{dutordoir2017deep,
-  title={Deep Gaussian Process metamodeling of sequentially sampled non-stationary response surfaces},
-  author={Dutordoir, Vincent and Knudde, Nicolas and van der Herten, Joachim and Couckuyt, Ivo and Dhaene, Tom},
-  booktitle={Winter Simulation Conference (WSC)},
-  pages={1728--1739},
-  year={2017},
-  organization={IEEE}
+@inproceedings{dutordoir20a, 
+  title={Bayesian Image Classification with Deep Convolutional Gaussian Processes},
+  author={Dutordoir, Vincent and van der Wilk, Mark and Artemev, Artem and Hensman, James},
+  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  pages={1529--1539},
+  year={2020},
+  editor = {Silvia Chiappa and Roberto Calandra},
+  volume = {108},
+  series = {Proceedings of Machine Learning Research},
+  address = {Online},
+  month = {26--28 Aug},
+  publisher = {PMLR},
+  pdf = {http://proceedings.mlr.press/v108/dutordoir20a/dutordoir20a.pdf},
+  url = {http://proceedings.mlr.press/v108/dutordoir20a.html},
+  abstract = {In decision-making systems, it is important to have classifiers that have calibrated uncertainties, 
+  with an optimisation objective that can be used for automated model selection and training. 
+  Gaussian processes (GPs) provide uncertainty estimates and a marginal likelihood objective, 
+  but their weak inductive biases lead to inferior accuracy. This has limited their applicability in certain tasks (e.g. image classification). 
+  We propose a translation insensitive convolutional kernel, which relaxes the translation invariance constraint imposed by previous convolutional GPs.
+  We show how we can use the marginal likelihood to learn the degree of insensitivity. We also reformulate GP image-to-image convolutional mappings as multi-output GPs,
+  leading to deep convolutional GPs. We show experimentally that our new kernel improves performance in both single-layer and deep models.
+  We also demonstrate that our fully Bayesian approach improves on dropout-based Bayesian deep learning methods in terms of uncertainty and marginal likelihood estimates.} 
 }
 
+@InProceedings{salimbeni19a,
+ title = {Deep Gaussian Processes with Importance-Weighted Variational Inference},
+ author = {Salimbeni, Hugh and Dutordoir, Vincent and Hensman, James and Deisenroth, Marc},
+ booktitle={International Conference on Machine Learning (ICML)},
+ pages = {5589--5598},
+ year = {2019},
+ editor = {Kamalika Chaudhuri and Ruslan Salakhutdinov},
+ volume = {97},
+ series = {Proceedings of Machine Learning Research},
+ address = {Long Beach, California, USA},
+ month = {09--15 Jun},
+ publisher = {PMLR},
+ pdf = {http://proceedings.mlr.press/v97/salimbeni19a/salimbeni19a.pdf},
+ url = {http://proceedings.mlr.press/v97/salimbeni19a.html},
+ abstract = {Deep Gaussian processes (DGPs) can model complex marginal densities as well as complex mappings.
+ Non-Gaussian marginals are essential for modelling real-world data, and can be generated from the DGP by incorporating uncorrelated variables to the model. 
+ Previous work in the DGP model has introduced noise additively, and used variational inference with a combination of sparse Gaussian processes and mean-field Gaussians for the approximate posterior.
+ Additive noise attenuates the signal, and the Gaussian form of variational distribution may lead to an inaccurate posterior.
+ We instead incorporate noisy variables as latent covariates, and propose a novel importance-weighted objective, which leverages analytic results and provides a mechanism to trade off computation for improved accuracy.
+ Our results demonstrate that the importance-weighted objective works well in practice and consistently outperforms classical variational inference, especially for deeper models.} 
+ }
 
-@article{dutordoir2017non,
-  title={Non-Stationary Surrogate Modeling with Deep Gaussian},
-  author={Dutordoir, Vincent},
-  year={2017}
+@incollection{dutordoir2018gaussian,
+title = {Gaussian Process Conditional Density Estimation},
+author = {Dutordoir, Vincent and Salimbeni, Hugh and Hensman, James and Deisenroth, Marc},
+booktitle = {Advances in Neural Information Processing Systems (NeurIPS) 31},
+editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+pages = {2385--2395},
+year = {2018},
+publisher = {Curran Associates, Inc.},
+pdf = {http://papers.nips.cc/paper/7506-gaussian-process-conditional-density-estimation.pdf},
+url = {http://papers.nips.cc/paper/7506-gaussian-process-conditional-density-estimation}
 }
