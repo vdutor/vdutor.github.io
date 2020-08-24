@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
+
+import ClipboardJS from 'clipboard'
+import { FaCopy, FaAdobe, FaFilePdf, FaExternalLinkAlt } from "react-icons/fa"
 
 
 function extractShortNameFromBooktitle(booktitle) {
@@ -10,6 +12,7 @@ function extractShortNameFromBooktitle(booktitle) {
 }
 
 const Publication = (props) => {
+    new ClipboardJS('.btn-cpy');
     console.log(props.data.authors)
     return (
       <div className="card">
@@ -26,39 +29,42 @@ const Publication = (props) => {
               return (
                 <span key={`author_${props.data.key}_${index}`}>
                   {index ? ", " : ""}
-                  {item == "Vincent Dutordoir" ? <strong>{item}</strong> : item}
+                  {item === "Vincent Dutordoir" ? <strong>{item}</strong> : item}
                 </span>
               )
             })}
           </p>
-          <Link
+          <a
             key={`paper_btn_${props.data.key}`}
             target="_blank"
+            rel="noreferrer"
             className="btn btn-light"
-            to={props.data.url}
+            href={props.data.url}
             role="button"
           >
-            Paper
-          </Link>
+            <FaExternalLinkAlt/> Paper
+          </a>
           <a
             key={`pdf_btn_${props.data.key}`}
             target="_blank"
+            rel="noreferrer"
             className="btn btn-light"
             href={props.data.pdf}
             role="button"
           >
-            PDF
+            <FaFilePdf/> PDF
           </a>
           <button
             key={`bibtex_btn_${props.data.key}`}
             type="button"
-            className="btn btn-light"
+            className="btn btn-light btn-cpy"
+            data-clipboard-text={props.data.raw}
             onClick={() => {
-              navigator.clipboard.writeText(props.data.raw)
+              // navigator.clipboard.writeText(props.data.raw)
               alert("Successfully copied bibtex to clipboard")
             }}
           >
-            Copy Bibtex to Clipboard
+            <FaCopy /> Copy Bibtex
           </button>
         </div>
       </div>

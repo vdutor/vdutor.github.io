@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
+
+import {FaLinkedinIn, FaTwitter, FaGithub} from 'react-icons/fa'
 
 
 const About = () => {
@@ -8,6 +10,13 @@ const About = () => {
       query {
         markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
           html
+        }
+        site {
+          siteMetadata {
+            twitter
+            github
+            linkedin
+          }
         }
       }
     `)
@@ -25,23 +34,20 @@ const About = () => {
             Senior Machine Learning Researcher in Probabilistic Modelling
           </div>
           {/* <p className="lead mb-5"> */}
-          <div
+          <div style={{marginBottom: "2rem"}}
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
           {/* </p> */}
           <div className="social-icons">
-            <Link className="social-icon" to="#">
-              <i className="fab fa-linkedin-in"></i>
-            </Link>
-            <Link className="social-icon" to="#">
-              <i className="fab fa-github"></i>
-            </Link>
-            {/* <a className="social-icon" href="#">
-              <i className="fab fa-twitter"></i>
+            <a className="social-icon" href={data.site.siteMetadata.github}>
+              <FaGithub/>
             </a>
-            <a className="social-icon" href="#">
-              <i className="fab fa-facebook-f"></i>
-            </a> */}
+            <a className="social-icon" href={data.site.siteMetadata.twitter}>
+              <FaTwitter/>
+            </a>
+            <a className="social-icon" href={data.site.siteMetadata.linkedin}>
+              <FaLinkedinIn/>
+            </a>
           </div>
         </div>
       </section>

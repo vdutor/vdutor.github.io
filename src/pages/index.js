@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <div id="page-top">
       <Header></Header>
-      <div className="container-fluid p-0">
+      <div className="container p-0">
         <About></About>
         <Publications></Publications>
       </div>

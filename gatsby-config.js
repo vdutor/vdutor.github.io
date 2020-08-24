@@ -8,6 +8,9 @@ module.exports = {
   siteMetadata: {
     firstname: 'Vincent',
     lastname: 'Dutordoir',
+    twitter: 'https://twitter.com/vdutor',
+    github: 'https://github.com/vdutor',
+    linkedin: 'https://www.linkedin.com/in/vdutor',
   },
   plugins: [
     'gatsby-plugin-fontawesome-css',
