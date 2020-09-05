@@ -32,7 +32,7 @@ const Publications = () => {
     return (
       <section className="resume-section" id="publications">
         <div className="resume-section-content">
-          <h2>Publications</h2>
+          <h2>Selected Publications</h2>
           {data.allReference.edges.map(edge => {
             return <Publication data={edge.node}></Publication>
           })}
@@ -43,7 +43,7 @@ const Publications = () => {
               role="button"
               to="https://scholar.google.com/citations?user=JXzAGfoAAAAJ&hl=en"
             >
-              See all publications (Google scholar)
+              All publications (Google scholar)
             </Link>
           </div>
         </div>

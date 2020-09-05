@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ClipboardJS from 'clipboard'
-import { FaCopy, FaAdobe, FaFilePdf, FaExternalLinkAlt } from "react-icons/fa"
+import { FaCopy, FaFilePdf, FaExternalLinkAlt } from "react-icons/fa"
 
 
 function extractShortNameFromBooktitle(booktitle) {
@@ -20,7 +20,7 @@ const Publication = (props) => {
           <div className="card-badge">
             {extractShortNameFromBooktitle(props.data.booktitle)}
           </div>
-          <h5 className="card-title">{props.data.title}</h5>
+          <h5 className="mt-1 card-title">{props.data.title}</h5>
           <p class="card-subtitle mb-2 text-muted">
             {props.data.booktitle}, {props.data.year}
           </p>
