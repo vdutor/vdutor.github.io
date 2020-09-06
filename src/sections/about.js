@@ -31,7 +31,7 @@ const About = () => {
             {/* </span> */}
           </h1>
           <div className="subheading mb-5">
-            Ph.D. Candidate @ the University of Cambridge
+            Ph.D. Candidate @ University of Cambridge
             <br></br>
             Machine Learning Researcher @ PROWLER.io
           </div>
