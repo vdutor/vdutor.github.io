@@ -37,14 +37,14 @@ const Publications = () => {
             return <Publication data={edge.node}></Publication>
           })}
           <div class="text-center">
-            <Link
+            <a
               target="_blank"
               className="btn btn-outline-secondary"
               role="button"
-              to="https://scholar.google.com/citations?user=JXzAGfoAAAAJ&hl=en"
+              href="https://scholar.google.com/citations?user=JXzAGfoAAAAJ&hl=en"
             >
               All publications (Google scholar)
-            </Link>
+            </a>
           </div>
         </div>
       </section>

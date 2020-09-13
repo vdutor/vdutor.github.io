@@ -8,51 +8,83 @@ const Education = () => {
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h4 className="mb-0">University of Cambridge</h4>
-              <div className="subheading mb-3">Ph.D. in Engineering</div>
-              <div>Probabilistic machine learning // zoubin</div>
+              <div className="subheading mb-3">
+                Ph.D. in Probabilistic Machine Learning
+              </div>
+              <div>
+                Supervisor: prof. Zoubin Ghahramani <br />
+                Topics: (Deep) Gaussian processes &ndash; Approximate Bayesian
+                inference &ndash; Bayesian optimisation
+                {/* Model-based
+                Reinformcement Learning */}
+              </div>
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">October 2020 - Present</span>
             </div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between">
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h4 className="mb-0">University of Ghent (Belgium)</h4>
               <div className="subheading mb-3">
                 M. Sc. in Computer Science Engineering
               </div>
-              <div> Text </div>
-              <p>Summa Cum Laude</p>
+              <div>
+                Focus on signal processing (SP) and machine learning (ML) <br />
+                Master thesis:{" "}
+                <a href="https://lib.ugent.be/fulltxt/RUG01/002/367/115/RUG01-002367115_2017_0001_AC.pdf">
+                  Deep Gaussian processes for surrogate modelling of
+                  non-stationary surfaces
+                </a>
+              </div>
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">September 2015 - July 2017</span>
             </div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between">
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h4 className="mb-0">National University of Taiwan</h4>
-              <div className="subheading mb-3">
-                Exchange program
+              <div className="subheading mb-3">Visiting researcher</div>
+              <div>
+                A 6-month exchange program to the{" "}
+                <a href="http://ai.robo.ntu.edu.tw/en/group.php?id=2">
+                  Advanced Robotics Group
+                </a>{" "}
+                to work on machine learning for robotics.
               </div>
-              <div> Text </div>
-              <p>Cum Laude</p>
             </div>
             <div className="flex-shrink-0">
-              <span className="text-primary">September 2016 - January 2017</span>
+              <span className="text-primary">
+                September 2016 - January 2017
+              </span>
             </div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between">
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h4 className="mb-0">University of Ghent (Belgium)</h4>
               <div className="subheading mb-3">
                 B. Sc. in Computer Science Engineering
               </div>
-              <div> Text </div>
-              <p>Cum Laude</p>
+              <div>
+                {" "}
+                Focus on math, information and communation theory, signal
+                processing, and software developement.{" "}
+              </div>
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">September 2012 - July 2015</span>
             </div>
+          </div>
+          <div class="text-center">
+            <a
+              target="_blank"
+              className="btn btn-outline-secondary"
+              role="button"
+              href="https://drive.google.com/file/d/1AuKgKV-Si52LyYL0in8zPLGsFLt1XyVa/view?usp=sharing"
+            >
+              Download full CV
+            </a>
           </div>
         </div>
       </section>

@@ -1,8 +1,5 @@
-Hi! Welcome to my website!
+Hello and welcome to my webspace! I am a senior machine learning researcher at <a href=https://www.secondmind.ai/> Secondmind</a> (previously <a href=https://www.prowler.io>PROWLER.io</a>), undertaking a PhD in probabilistic machine learning at the University of Cambridge, under the supervision of <a href=http://mlg.eng.cam.ac.uk/zoubin>prof. Zoubin Ghahramani</a>.
 
-I graduated as a Computer Science Engineer from Ghent
-University in 2017, where I specialized in software development and
-machine learning. I'm originally from Belgium but moved to Cambridge
-UK to work for Prowler.io. I am a Machine Learning Researcher in the
-probabilistic modelling team, mainly working on cutting-edge
-Gaussian Process based models.
+I work on the development of probabilistic machine learning models for autonomous decision-making in dynamic and uncertain environments, like volatility prediction in financial markets or demand planning in supply chain networks. In most of my work, I follow Bayesian principles as it provides a principled way of building robust models that can safely be deployed in complex environments where data is typically scarce and noisy.
+
+I'm particularly interested in Gaussian processes (GPs), and over the last couple of years, I have done research in adding more sophisticated model structures into the GP, like depth, convolutions and latent variables &ndash; leading to models that are both practically useful and probabilistically grounded.
