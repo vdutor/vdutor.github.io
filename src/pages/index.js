@@ -1,10 +1,11 @@
 import React from "react"
 
-import Header from "../components/header"
 import About from "../sections/about"
-import Publications from "../sections/publications"
-import Experience from "../sections/experience"
+import Blog from "../sections/blog"
 import Education from "../sections/education"
+import Experience from "../sections/experience"
+import Header from "../components/header"
+import Publications from "../sections/publications"
 
 import "../styles/styles.scss"
 
@@ -26,6 +27,8 @@ const IndexPage = () => {
         <Experience></Experience>
         <hr class="m-0" />
         <Education></Education>
+        <hr class="m-0" />
+        <Blog></Blog>
       </div>
     </div>
   )

@@ -32,7 +32,7 @@ const Publications = () => {
     return (
       <section className="resume-section" id="publications">
         <div className="resume-section-content">
-          <h2>Selected Publications</h2>
+          <h2 className="mb-5">Selected Publications</h2>
           {data.allReference.edges.map(edge => {
             return <Publication data={edge.node}></Publication>
           })}

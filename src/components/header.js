@@ -73,6 +73,11 @@ class Header extends React.Component {
                   Education
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" onClick={this.toggleNavbar} to="#blog">
+                  Blog / Projects
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>

@@ -44,24 +44,6 @@ const Education = () => {
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
-              <h4 className="mb-0">National University of Taiwan</h4>
-              <div className="subheading mb-3">Visiting researcher</div>
-              <div>
-                A 6-month exchange program to the{" "}
-                <a href="http://ai.robo.ntu.edu.tw/en/group.php?id=2">
-                  Advanced Robotics Group
-                </a>{" "}
-                to work on machine learning for robotics.
-              </div>
-            </div>
-            <div className="flex-shrink-0">
-              <span className="text-primary">
-                September 2016 - January 2017
-              </span>
-            </div>
-          </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="flex-grow-1">
               <h4 className="mb-0">University of Ghent (Belgium)</h4>
               <div className="subheading mb-3">
                 B. Sc. in Computer Science Engineering

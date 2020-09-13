@@ -28,6 +28,24 @@ const Experience = () => {
               <span class="text-primary">September 2017 - Present</span>
             </div>
           </div>
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="flex-grow-1">
+              <h4 className="mb-0">National University of Taiwan</h4>
+              <div className="subheading mb-3">Visiting researcher</div>
+              <div>
+                A 6-month exchange program to the{" "}
+                <a href="http://ai.robo.ntu.edu.tw/en/group.php?id=2">
+                  Advanced Robotics Group
+                </a>{" "}
+                to work on machine learning for robotics.
+              </div>
+            </div>
+            <div className="flex-shrink-0">
+              <span className="text-primary">
+                September 2016 - January 2017
+              </span>
+            </div>
+          </div>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
               <h4 class="mb-0">Software Developer (internship)</h4>
