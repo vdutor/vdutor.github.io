@@ -1,14 +1,17 @@
 ---
-layout: post
+date:   September 2018
 title:  "TF-rex: Playing Google's T-rex game with TensorFlow"
-date:   2018-5-7 11:24:51
-categories: blog
+url: https://github.com/vdutor/personal-website-gatsby/blob/master/src/content/blog/TF-Rex.md
+github: https://github.com/vdutor/TF-rex
+thumbnail: https://lh3.googleusercontent.com/jq1i1nFKtLmxQI70ss58AfAwZi0Ef44ie62bthVndVBeHrPL04Ea46560tm-Pdki7phe
 ---
+The goal of this project is to play Google's offline T-rex Dino game using Deep Q-Learning. We use TensorFlow (TF) &ndash; hence the name TF-rex ;)
 
-This blogpost accompanies my Github-project [TF-rex](https://github.com/vdutor/TF-rex).
+This blogpost accompanies the Github-project [TF-rex](https://github.com/vdutor/TF-rex).
 
 The goal of this project is to play Google's offline T-rex Dino game using Reinforcement Learning (RL).
 The RL algorithm is based on the Deep Q-Learning algorithm [1] and is implemented in TensorFlow (TF), hence the name TF-rex ;).
+
 Google's offline game consists of a T-rex striving to dodge obstacles, such as cactuses and birds, and surviving as long as possible. The dino is able to perform three actions: "jumping", "ducking" and "going forward". [You can try it yourself](http://www.trex-game.skipser.com/).
 
 ![T-Rex gane played by Q-learner](https://github.com/wayou/t-rex-runner/blob/gh-pages/assets/screenshot.gif?raw=true)

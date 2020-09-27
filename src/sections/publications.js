@@ -1,6 +1,6 @@
 import React from "react"
 
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 
 import Publication from "../components/publication"

@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/personal-website-gatsby",
   siteMetadata: {
     firstname: 'Vincent',
     lastname: 'Dutordoir',

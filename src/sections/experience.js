@@ -20,7 +20,7 @@ const Experience = () => {
                 prediction of financial markts or demand planning in supply
                 chain networks. With my background in software development, I'm
                 particualy interested in building well-designed machine learning
-                frameworks that can be used for basic research and but also for
+                frameworks that can be used for basic research, but also for
                 developing customer solutions.
               </p>
             </div>
@@ -53,10 +53,9 @@ const Experience = () => {
               <p>
                 During the summer of 2015, I interned at "In the Pocket", a
                 leading Belgian company in IoT, VR and software development.
-                During the internship, I co-developed an Android App &ndash;
-                "Citie" &ndash; which is reaching 10.000 downloads. The app
+                During the internship, I co-developed an Android App (10k+ downloads). The app
                 lets you collect loyality points and rewards by shopping in
-                affiliated malls.
+                affiliated shops.
               </p>
             </div>
             <div class="flex-shrink-0">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ClipboardJS from 'clipboard'
+// import ClipboardJS from 'clipboard'
 import { FaCopy, FaFilePdf, FaExternalLinkAlt } from "react-icons/fa"
 
 
@@ -12,7 +12,7 @@ function extractShortNameFromBooktitle(booktitle) {
 }
 
 const Publication = (props) => {
-    new ClipboardJS('.btn-cpy');
+    // new ClipboardJS('.btn-cpy');
     console.log(props.data.authors)
     return (
       <div className="card">
@@ -58,7 +58,7 @@ const Publication = (props) => {
             key={`bibtex_btn_${props.data.key}`}
             type="button"
             className="btn btn-light btn-cpy"
-            data-clipboard-text={props.data.raw}
+            // data-clipboard-text={props.data.raw}
             onClick={() => {
               // navigator.clipboard.writeText(props.data.raw)
               alert("Successfully copied bibtex to clipboard")
