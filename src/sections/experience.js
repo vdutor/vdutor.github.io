@@ -1,8 +1,18 @@
 import React from 'react'
 
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 const Experience = () => {
+    const data = useStaticQuery(graphql`
+      query {
+        site {
+          siteMetadata {
+            cvUrl
+          }
+        }
+      }
+    `)
+
     return (
       <section className="resume-section" id="experience">
         <div class="resume-section-content">
@@ -10,16 +20,16 @@ const Experience = () => {
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
               <h4 class="mb-0">Senior Machine Learning Researcher</h4>
-              <div class="subheading mb-3">PROWLER.io</div>
+              <div class="subheading mb-3">Secondmind (formerly PROWLER.io)</div>
               <p>
                 As part of the probabilistic modelling team, I study Gaussian
                 processes and work on improving approximate Bayesian inference
                 in terms of robustness and scalability. My work involves doing
                 basic research (see <Link to="#publications">Publications</Link>
                 ), but also has an applied context to it, e.g. volatility
-                prediction of financial markts or demand planning in supply
-                chain networks. With my background in software development, I'm
-                particualy interested in building well-designed machine learning
+                prediction of financial markets or demand planning in supply
+                chain networks. With my background in software engineering, I'm
+                particularly interested in building well-designed machine learning
                 frameworks that can be used for basic research, but also for
                 developing customer solutions.
               </p>
@@ -67,7 +77,7 @@ const Experience = () => {
             target="_blank"
             className="btn btn-outline-secondary"
             role="button"
-            href="https://drive.google.com/file/d/1AuKgKV-Si52LyYL0in8zPLGsFLt1XyVa/view?usp=sharing"
+            href={data.site.siteMetadata.cvUrl}
           >
             Download full CV
           </a>

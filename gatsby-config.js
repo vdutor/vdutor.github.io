@@ -12,6 +12,7 @@ module.exports = {
     twitter: 'https://twitter.com/vdutor',
     github: 'https://github.com/vdutor',
     linkedin: 'https://www.linkedin.com/in/vdutor',
+    cvUrl: 'https://drive.google.com/file/d/1lvvkp9aIiiscIHlCTnemfaLSR7D4DZBO/view?usp=sharing'
   },
   plugins: [
     'gatsby-plugin-fontawesome-css',

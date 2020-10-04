@@ -33,7 +33,7 @@ const About = () => {
           <div className="subheading mb-5">
             Ph.D. Candidate @ University of Cambridge
             <br></br>
-            Machine Learning Researcher @ PROWLER.io
+            Machine Learning Researcher @ Secondmind
           </div>
           {/* <p className="lead mb-5"> */}
           <div style={{marginBottom: "2rem"}}

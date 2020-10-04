@@ -1,6 +1,19 @@
 import React from 'react'
 
+import {useStaticQuery, graphql} from 'gatsby'
+
 const Education = () => {
+
+    const data = useStaticQuery(graphql`
+      query {
+        site {
+          siteMetadata {
+            cvUrl
+          }
+        }
+      }
+    `)
+
     return (
       <section className="resume-section" id="education">
         <div className="resume-section-content">
@@ -63,7 +76,7 @@ const Education = () => {
               target="_blank"
               className="btn btn-outline-secondary"
               role="button"
-              href="https://drive.google.com/file/d/1AuKgKV-Si52LyYL0in8zPLGsFLt1XyVa/view?usp=sharing"
+              href={data.site.siteMetadata.cvUrl}
             >
               Download full CV
             </a>

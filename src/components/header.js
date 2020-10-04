@@ -54,28 +54,48 @@ class Header extends React.Component {
           <div className={classDropdownMenu} id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" onClick={this.toggleNavbar} to="#about">
+                <Link
+                  className="nav-link"
+                  onClick={this.toggleNavbar}
+                  to="#about"
+                >
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" onClick={this.toggleNavbar} to="#publications">
+                <Link
+                  className="nav-link"
+                  onClick={this.toggleNavbar}
+                  to="#publications"
+                >
                   Publications
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" onClick={this.toggleNavbar} to="#experience">
+                <Link
+                  className="nav-link"
+                  onClick={this.toggleNavbar}
+                  to="#experience"
+                >
                   Experience
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" onClick={this.toggleNavbar} to="#education">
+                <Link
+                  className="nav-link"
+                  onClick={this.toggleNavbar}
+                  to="/#education"
+                >
                   Education
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" onClick={this.toggleNavbar} to="#blog">
-                  Blog / Projects
+                <Link
+                  className="nav-link"
+                  onClick={this.toggleNavbar}
+                  to="#blog"
+                >
+                  Blog &amp; Projects
                 </Link>
               </li>
             </ul>
