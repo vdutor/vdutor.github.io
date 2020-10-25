@@ -1,4 +1,4 @@
-Hello and welcome to my webspace! I am a senior machine learning researcher at <a href=https://www.secondmind.ai/> Secondmind</a> (formerly PROWLER.io), undertaking a PhD in probabilistic machine learning at the University of Cambridge, under the supervision of <a href=http://mlg.eng.cam.ac.uk/zoubin>prof. Zoubin Ghahramani</a>.
+Welcome to my webspace! I am a PhD Candidate in Engineering (Probabilistic Machine Learning) at the University of Cambridge, working under the supervision of <a href=http://mlg.eng.cam.ac.uk/zoubin>prof. Zoubin Ghahramani</a>. I am also part-time affiliated to <a href=https://www.secondmind.ai/> Secondmind</a> (formerly PROWLER.io), where I fulfil the role of senior machine learning researcher.
 
 I work on the development of probabilistic machine learning models for autonomous decision-making in dynamic and uncertain environments, like volatility prediction in financial markets or demand planning in supply chain networks. In most of my work, I follow Bayesian principles as it provides a principled way of building robust models that can safely be deployed in complex environments where data is typically scarce and noisy.
 
