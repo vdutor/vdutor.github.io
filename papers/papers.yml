@@ -14,7 +14,7 @@
     - name: pdf
       url: "https://proceedings.neurips.cc/paper/2021/file/4e6cd95227cb0c280e99a195be5f6615-Paper.pdf"
     - name: bibtex
-      url: "/papers/dutordoir2021.bib"
+      url: "/papers/dutordoir2021.txt"
   authors: "Vincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, Nicolas Durrande"
   date: 2021-11-22
 
