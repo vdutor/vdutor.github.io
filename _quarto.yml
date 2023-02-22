@@ -12,6 +12,15 @@ website:
         text: Talks
       - href: notes.qmd
         text: Notes
+    right:
+    - icon: github
+      href: www.github.com/vdutor
+    - icon: twitter
+      href: www.github.com/vdutor
+  twitter-card:
+     creator: "@vdutor"
+  site-url: "https://vdutor.github.io/"
+
   search: false
 
 format:

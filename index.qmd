@@ -13,6 +13,9 @@ about:
     - icon: paperclip
       text: Google Scholar
       href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
+    - icon: mailbox
+      text: Mail
+      href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
 metadata-files: 
   - papers/_metadata.yml
 listing: 
@@ -21,16 +24,36 @@ listing:
   contents: papers/papers.yml
 ---
 
+```{=html}
+<div class="bg-warning" style="background-color: orange; padding: 20px 0px; text-align: center;">
+    Website under development
+</div>
+```
+
 :::{#hero-heading}
 
-I am a PhD Candidate in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). I am also part-time affiliated to [Secondmind](https://www.secondmind.ai/), where I fulfil the role of senior machine learning researcher. I was fortunate to spend the second half of 2022 doing an internship at [DeepMind](https://www.deepmind.com/), where I was part of the Safety Analysis team.
+Hello, I'm Vincent Dutordoir! I'm a PhD student in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
+
+I am also part-time affiliated to [Secondmind](https://www.secondmind.ai/), where I fulfil the role of senior machine learning researcher.
+
+I was fortunate to spend the second half of 2022 doing an internship at [DeepMind](https://www.deepmind.com/), where I was part of the Safety Analysis team.
 
 My research interests lie in probabilistic machine learning with applications in generative modelling and sequential decision making.
+
 - Gaussian processes
 - Deep Generative modelling
 - Stochastic Differential Equations.
 
 Besides my research, I love developing full-stack data-centric projects.
+
+
+::: {#socials}
+You can find some of my work on
+[<i class="bi bi-github"></i> Github](www.github.com/vdutor) or
+[<i class="bi bi-paperclip"></i> Google scholar](https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en).
+I'm very happy to connect on [<i class="bi bi-twitter"></i> Twitter](https://twitter.com/vdutor) or via e-mail
+on `dutordoirv@gmail.com`.
+:::
 
 :::
 
@@ -45,15 +68,10 @@ Highlighted research papers. A complete list can be found on my [Google scholar]
 
 ## News
 
-```{=html}
-<div style="background-color: red;">
-    Website under development
-</div>
-```
 
 
 |  |  |
-|--|:-----|
+|-|:-----|
 | Sept. 2022      |  Start internship at DeepMind. I'll be spending the fall in London working on technical analysis of transformer models.  |
 | Sept. 2020      |  New paper on XXX  |
 | Sept. 2020      |  Start PhD at University of Cambridge  |
@@ -63,6 +81,25 @@ Highlighted research papers. A complete list can be found on my [Google scholar]
 
 ```{=html}
 <style>
+    @media (min-width: 992px){
+      #socials {
+        display: none;
+      }
+
+    }
+    @media (max-width: 992px){
+      img.about-image {
+          display: none;
+      }
+      a.about-link {
+          display: none;
+      }
+    } 
+
+    img.about-image {
+      width: 15em!important;
+    }
+
     .paper-card {
         margin-top: 1.5rem;
     }
