@@ -1,0 +1,7 @@
+@InProceedings{dutordoir2020,
+  title = 	 {Sparse {G}aussian processes with spherical harmonic features},
+  author = 	 {Dutordoir, Vincent and Durrande, Nicolas and Hensman, James},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  year = 	 {2020},
+  pdf = 	 {http://proceedings.mlr.press/v119/dutordoir20a/dutordoir20a.pdf},
+}

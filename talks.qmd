@@ -1,0 +1,29 @@
+# 🎤 Talks
+
+A list of lectures or talks that I’ve given with links to slides or recording if available:
+
+
+
+**2022**
+
+|               |
+|---------------|
+| Genu |
+| GPSS |
+
+**2021**
+
+|               |
+|---------------|
+| Spotlight talk: probprog 2021|
+|AI for the study of Environmental Risks (AI4ER). UKRI Centre for Doctoral Training. Guest lecture on Gaussian process models.|
+| StatML Oxford/Imperial College PhD program: Guest lecture on Variational Gaussian processes. |
+
+**2020**
+
+|               |
+|---------------|
+|  Presentation at ICML 2020 on Spherical harmonic features in Gaussian processes. [Slides](/talks/content/VISH.pdf) |
+|  Presentation at AISTATS 2020 on Deep Convolutional GPs [Slides](/talks/content/TICK.pdf) |
+|  Microsoft Research Cambridge: Research Spotlight. [Slides]() |
+|  Lancaster University: Workshop on Simulations for Climate Modelling. |

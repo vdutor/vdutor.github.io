@@ -1,3 +1,56 @@
 #hero-heading {
     text-align: left;
 }
+
+@media (min-width: 992px){
+    #socials {
+      display: none;
+    }
+
+  }
+  @media (max-width: 992px){
+    img.about-image {
+        display: none;
+    }
+    a.about-link {
+        display: none;
+    }
+  } 
+
+  img.about-image {
+    width: 15em!important;
+  }
+
+  .paper-card {
+      margin-top: 1.5rem;
+  }
+
+  .paper-card p{
+      margin: 0;
+  }
+
+  .paper-title {
+      font-size: 1.1rem;
+      margin-bottom: .1rem;
+      font-weight: bolder;
+  }
+
+  .paper-conference {
+    font-size: medium;
+    font-style: italic;
+  }
+
+  .paper-authors {
+      /* font-size: medium; */
+      margin-bottom: 1rem;
+  }
+
+  .paper-abstract {
+      font-size: medium;
+  }
+
+  .paper-link {
+      border-radius: 5px;
+      margin-right: .8rem;
+      font-size: 90%;
+  }

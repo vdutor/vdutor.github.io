@@ -61,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-conference','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-conference","listing-links","listing-authors","listing-date"],
+      searchColumns: ["listing-title","listing-conference","listing-links","listing-authors","listing-abstract","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -108,18 +108,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Notes</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="./www.github.com/vdutor"><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./www.github.com/vdutor"><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -134,7 +122,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="bg-warning" style="background-color: orange; padding: 20px 0px; text-align: center;">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<div class="bg-warning" style="padding: 20px 0px; text-align: center;">
     Website under development
 </div>
 <div class="quarto-about-trestles">
@@ -151,8 +142,7 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">Github</span>
   </a>
   <a href="https://scholar.google.be/citations?user=oqX6470AAAAJ&amp;hl=en" class="about-link">
-    <i class="bi bi-paperclip"></i>
-     <span class="about-link-text">Google Scholar</span>
+     <span class="about-link-text"><i class="ai ai-google-scholar-square" style="color: gray"></i> Google scholar</span>
   </a>
   <a href="https://scholar.google.be/citations?user=oqX6470AAAAJ&amp;hl=en" class="about-link">
     <i class="bi bi-mailbox"></i>
@@ -161,97 +151,48 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<p>Hello, I’m Vincent Dutordoir! I’m a PhD student in Information Engineering at the University of Cambridge, working with professor <a href="https://mlg.eng.cam.ac.uk/zoubin/">Zoubin Ghahramani</a> and <a href="http://carlhenrik.com/">Carl Henrik Ek</a>.</p>
-<p>I am also part-time affiliated to <a href="https://www.secondmind.ai/">Secondmind</a>, where I fulfil the role of senior machine learning researcher.</p>
-<p>I was fortunate to spend the second half of 2022 doing an internship at <a href="https://www.deepmind.com/">DeepMind</a>, where I was part of the Safety Analysis team.</p>
-<p>My research interests lie in probabilistic machine learning with applications in generative modelling and sequential decision making.</p>
-<ul>
-<li>Gaussian processes</li>
-<li>Deep Generative modelling</li>
-<li>Stochastic Differential Equations.</li>
-</ul>
-<p>Besides my research, I love developing full-stack data-centric projects.</p>
+<p>Hi there! I’m Vincent Dutordoir, a PhD student in Information Engineering at the University of Cambridge, working with professor <a href="https://mlg.eng.cam.ac.uk/zoubin/">Zoubin Ghahramani</a> and <a href="http://carlhenrik.com/">Carl Henrik Ek</a>.</p>
+<p>Prior to my PhD, I worked for a couple of years at <a href="https://www.secondmind.ai/">Secondmind</a> as a machine learning research. I’m still affiliated to Secondmind on a part-time basis since starting my PhD. In fall 2022, I did an internship in <a href="https://www.deepmind.com/">DeepMind</a>’s safety analysis team.</p>
+<p>My research focuses on the intersection of statistical methods and deep learning, with applications in generative modelling and sequential decision making. Recently, I have been excited about defining <a href="https://arxiv.org/abs/2206.03992">stochastic processes using denoising diffusion models</a>.</p>
+<p>Besides my research, I love developing fullstack (data-centric) applications, and I help maintain a couple of opensource projects: <a href="https://github.com/GPflow/GeometricKernels">1</a>, <a href="https://github.com/vdutor/fluid">2</a>, <a href="https://github.com/secondmind-labs/GPflux">3</a>.</p>
 <div id="socials">
-<p>You can find some of my work on <a href="www.github.com/vdutor"><i class="bi bi-github"></i> Github</a> or <a href="https://scholar.google.be/citations?user=oqX6470AAAAJ&amp;hl=en"><i class="bi bi-paperclip"></i> Google scholar</a>. I’m very happy to connect on <a href="https://twitter.com/vdutor"><i class="bi bi-twitter"></i> Twitter</a> or via e-mail on <code>dutordoirv@gmail.com</code>.</p>
+<p>You can find some of my work on <a href="www.github.com/vdutor"><i class="bi bi-github"></i> Github</a> and a list of all my publications on <a href="https://scholar.google.be/citations?user=oqX6470AAAAJ&amp;hl=en"><i class="ai ai-google-scholar-square" style="color: blue"></i> Google scholar</a>. I’m very happy to connect on <a href="https://twitter.com/vdutor"><i class="bi bi-twitter"></i> Twitter</a> or via e-mail on <code>dutordoirv@gmail.com</code>.</p>
 </div>
 </div></div>
 </div>
 
+<section id="news" class="level2">
+<h2 data-anchor-id="news">News</h2>
+<p><strong>2022</strong></p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Dec 8th.</strong> Helped organizing a local <a href="https://www.neuripsmeetupcambridge.info/">NeurIPS meetup in Cambridge</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Sep 16th.</strong> Was invited to give a talk at <a href="https://genu.ai/2022/">GeNU 2022</a> in Copenhagen on diffusion models.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Sep 14th.</strong> Gave a lecture at the Gaussian process summer school in Sheffield on <a href="https://gpss.cc/gpss22/slides/Vincent.html">Spectral and Spherical Gaussian processes</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Sep 1st.</strong> Start internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>July.</strong> Organiser ELLIS summer school Cambridge: poster session and networking event july ’22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Jun 8th.</strong> New preprint out: <a href="https://arxiv.org/abs/2206.03992">Neural Diffusion Processes</a>.</td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="research" class="level2">
 <h2 data-anchor-id="research">Research</h2>
 <p>Highlighted research papers. A complete list can be found on my <a href="https://scholar.google.be/citations?user=oqX6470AAAAJ&amp;hl=en">Google scholar</a>.</p>
 <div id="papers-listings">
 
 </div>
-</section>
-<section id="news" class="level2">
-<h2 data-anchor-id="news">News</h2>
-<table class="table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 85%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Sept.&nbsp;2022</td>
-<td style="text-align: left;">Start internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.</td>
-</tr>
-<tr class="even">
-<td>Sept.&nbsp;2020</td>
-<td style="text-align: left;">New paper on XXX</td>
-</tr>
-<tr class="odd">
-<td>Sept.&nbsp;2020</td>
-<td style="text-align: left;">Start PhD at University of Cambridge</td>
-</tr>
-</tbody>
-</table>
-<style>
-    @media (min-width: 992px){
-      #socials {
-        display: none;
-      }
-
-    }
-    @media (max-width: 992px){
-      img.about-image {
-          display: none;
-      }
-      a.about-link {
-          display: none;
-      }
-    } 
-
-    img.about-image {
-      width: 15em!important;
-    }
-
-    .paper-card {
-        margin-top: 1.5rem;
-    }
-
-    .paper-card p{
-        margin: 0;
-    }
-
-    .paper-title {
-        font-size: 1.1rem;
-        margin-bottom: .1rem;
-        font-weight: bolder;
-    }
-
-    .paper-authors {
-        margin-bottom: 1rem;
-    }
-
-    .paper-link {
-        border-radius: 5px;
-        margin-right: .8rem;
-        font-size: 90%;
-    }
-
-    
-</style>
 
 
 
@@ -263,9 +204,13 @@ ul.task-list li input[type="checkbox"] {
 <p class="paper-title">Neural Diffusion Processes</p>
 <p class="paper-authors">Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson</p>
 <p class="paper-conference text-info">Arxiv</p>
+<p class="paper-abstract">Denoising diffusion models for functions.</p>
 <div class="d-flex flex-row flex-wrap">
     <div>
-        <a href="https://arxiv.org/pdf/2206.03992.pdf" class="paper-link" role="button">pdf</a>
+        <a href="https://arxiv.org/pdf/2206.03992.pdf" class="paper-link" role="button">PDF</a>
+    </div>
+    <div>
+        <a href="./papers/dutordoir2022.txt" class="paper-link" role="button">BibTeX</a>
     </div>
 </div>
 </div>
@@ -273,12 +218,13 @@ ul.task-list li input[type="checkbox"] {
 <p class="paper-title">Deep neural networks as point estimates for deep Gaussian processes</p>
 <p class="paper-authors">Vincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, Nicolas Durrande</p>
 <p class="paper-conference text-info">Advances in Neural Information Processing Systems (NeurIPS 2021)</p>
+<p class="paper-abstract">Shows the equivalence between the forward propogation of the mean in a Deep Gaussian process (GP) and a fully-connected neural network layer. Method can be used to better initialise deep GPs and understand the uncertainty in DNNs.</p>
 <div class="d-flex flex-row flex-wrap">
     <div>
-        <a href="https://proceedings.neurips.cc/paper/2021/file/4e6cd95227cb0c280e99a195be5f6615-Paper.pdf" class="paper-link" role="button">pdf</a>
+        <a href="https://proceedings.neurips.cc/paper/2021/file/4e6cd95227cb0c280e99a195be5f6615-Paper.pdf" class="paper-link" role="button">PDF</a>
     </div>
     <div>
-        <a href="./papers/dutordoir2021.txt" class="paper-link" role="button">bibtex</a>
+        <a href="./papers/dutordoir2021.txt" class="paper-link" role="button">BibTeX</a>
     </div>
 </div>
 </div>
@@ -286,12 +232,13 @@ ul.task-list li input[type="checkbox"] {
 <p class="paper-title">Sparse Gaussian Processes with Spherical Harmonic Features</p>
 <p class="paper-authors">Vincent Dutordoir, Nicolas Durrande, James Hensman</p>
 <p class="paper-conference text-info">Internation Conference of Machine Learning (ICML 2020)</p>
+<p class="paper-abstract">We derive the Reproducing Kernel Hilbert space for spherical kernels allowing us to design linear time Gausian processes (GPs).</p>
 <div class="d-flex flex-row flex-wrap">
     <div>
-        <a href="#" class="paper-link" role="button">pdf</a>
+        <a href="http://proceedings.mlr.press/v119/dutordoir20a/dutordoir20a.pdf" class="paper-link" role="button">PDF</a>
     </div>
     <div>
-        <a href="#" class="paper-link" role="button">bibtex</a>
+        <a href="./papers/dutordoir2020.txt" class="paper-link" role="button">BibTeX</a>
     </div>
 </div>
 </div>
@@ -426,6 +373,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Last updated on 22 Feb 2023</div>
+  </div>
+</footer>
 
 
 

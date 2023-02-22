@@ -1,4 +1,3 @@
-
 ```{=html}
 
 <% for (const item of items) { %>
@@ -7,6 +6,7 @@
 <p class="paper-title"><%- item.title %></p>
 <p class="paper-authors"><%= item.authors %></p>
 <p class="paper-conference text-info"><%= item.conference %></p>
+<p class="paper-abstract"><%= item.abstract %></p>
 <div class="d-flex flex-row flex-wrap">
 <% for (const l of item.links) { %>
     <div>

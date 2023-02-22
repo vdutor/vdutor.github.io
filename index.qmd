@@ -10,8 +10,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/vdutor
-    - icon: paperclip
-      text: Google Scholar
+    - text: "<i class='ai ai-google-scholar-square' style='color: gray'></i> Google scholar"
       href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
     - icon: mailbox
       text: Mail
@@ -25,37 +24,56 @@ listing:
 ---
 
 ```{=html}
-<div class="bg-warning" style="background-color: orange; padding: 20px 0px; text-align: center;">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+```
+
+```{=html}
+<div class="bg-warning" style="padding: 20px 0px; text-align: center;">
     Website under development
 </div>
 ```
 
 :::{#hero-heading}
 
-Hello, I'm Vincent Dutordoir! I'm a PhD student in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
+Hi there! I'm Vincent Dutordoir, a PhD student in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
 
-I am also part-time affiliated to [Secondmind](https://www.secondmind.ai/), where I fulfil the role of senior machine learning researcher.
+Prior to my PhD, I worked for a couple of years at [Secondmind](https://www.secondmind.ai/) as a machine learning research. I'm still affiliated to Secondmind on a part-time basis since starting my PhD. In fall 2022, I did an internship in [DeepMind](https://www.deepmind.com/)'s safety analysis team.
 
-I was fortunate to spend the second half of 2022 doing an internship at [DeepMind](https://www.deepmind.com/), where I was part of the Safety Analysis team.
+My research focuses on the intersection of statistical methods and deep learning, with applications in generative modelling and sequential decision making. Recently, I have been excited about defining [stochastic processes using denoising diffusion models](https://arxiv.org/abs/2206.03992).
 
-My research interests lie in probabilistic machine learning with applications in generative modelling and sequential decision making.
-
-- Gaussian processes
-- Deep Generative modelling
-- Stochastic Differential Equations.
-
-Besides my research, I love developing full-stack data-centric projects.
+Besides my research, I love developing fullstack (data-centric) applications, and I help maintain a couple of opensource projects: [1](https://github.com/GPflow/GeometricKernels), [2](https://github.com/vdutor/fluid), [3](https://github.com/secondmind-labs/GPflux).
 
 
 ::: {#socials}
 You can find some of my work on
-[<i class="bi bi-github"></i> Github](www.github.com/vdutor) or
-[<i class="bi bi-paperclip"></i> Google scholar](https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en).
+[<i class="bi bi-github"></i> Github](www.github.com/vdutor) and a list of all my publications on
+[<i class="ai ai-google-scholar-square" style="color: blue"></i> Google scholar](https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en).
 I'm very happy to connect on [<i class="bi bi-twitter"></i> Twitter](https://twitter.com/vdutor) or via e-mail
 on `dutordoirv@gmail.com`.
 :::
 
+
+
 :::
+
+
+
+## News
+
+**2022**
+
+
+|         |
+|:------|
+| **Dec 8th.** Helped organizing a local [NeurIPS meetup in Cambridge](https://www.neuripsmeetupcambridge.info/). |
+| **Sep 16th.** Was invited to give a talk at [GeNU 2022](https://genu.ai/2022/) in Copenhagen on diffusion models. |
+| **Sep 14th.** Gave a lecture at the Gaussian process summer school in Sheffield on [Spectral and Spherical Gaussian processes](https://gpss.cc/gpss22/slides/Vincent.html).
+| **Sep 1st.** Start internship at DeepMind. I'll be spending the fall in London working on technical analysis of transformer models.  |
+| **July.** Organiser ELLIS summer school Cambridge: poster session and networking event july '22|
+| **Jun 8th.** New preprint out: [Neural Diffusion Processes](https://arxiv.org/abs/2206.03992).  |
+
 
 ## Research
 
@@ -63,68 +81,4 @@ Highlighted research papers. A complete list can be found on my [Google scholar]
 
 ::: {#papers-listings}
 :::
-
-
-
-## News
-
-
-
-|  |  |
-|-|:-----|
-| Sept. 2022      |  Start internship at DeepMind. I'll be spending the fall in London working on technical analysis of transformer models.  |
-| Sept. 2020      |  New paper on XXX  |
-| Sept. 2020      |  Start PhD at University of Cambridge  |
-
-
-
-
-```{=html}
-<style>
-    @media (min-width: 992px){
-      #socials {
-        display: none;
-      }
-
-    }
-    @media (max-width: 992px){
-      img.about-image {
-          display: none;
-      }
-      a.about-link {
-          display: none;
-      }
-    } 
-
-    img.about-image {
-      width: 15em!important;
-    }
-
-    .paper-card {
-        margin-top: 1.5rem;
-    }
-
-    .paper-card p{
-        margin: 0;
-    }
-
-    .paper-title {
-        font-size: 1.1rem;
-        margin-bottom: .1rem;
-        font-weight: bolder;
-    }
-
-    .paper-authors {
-        margin-bottom: 1rem;
-    }
-
-    .paper-link {
-        border-radius: 5px;
-        margin-right: .8rem;
-        font-size: 90%;
-    }
-
-    
-</style>
-```
 

@@ -1,27 +1,32 @@
 - title: "Sparse Gaussian Processes with Spherical Harmonic Features" 
   conference: "Internation Conference of Machine Learning (ICML 2020)"
   links:
-    - name: pdf
-      url: "#"
-    - name: bibtex
-      url: "#"
+    - name: PDF
+      url: "http://proceedings.mlr.press/v119/dutordoir20a/dutordoir20a.pdf"
+    - name: BibTeX
+      url: "/papers/dutordoir2020.txt"
   authors: "Vincent Dutordoir, Nicolas Durrande, James Hensman"
+  abstract: "We derive the Reproducing Kernel Hilbert space for spherical kernels allowing us to design linear time Gausian processes (GPs)."
   date: 2020-07-07
 
 - title: "Deep neural networks as point estimates for deep Gaussian processes" 
   conference: "Advances in Neural Information Processing Systems (NeurIPS 2021)"
   links:
-    - name: pdf
+    - name: PDF
       url: "https://proceedings.neurips.cc/paper/2021/file/4e6cd95227cb0c280e99a195be5f6615-Paper.pdf"
-    - name: bibtex
+    - name: BibTeX
       url: "/papers/dutordoir2021.txt"
   authors: "Vincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, Nicolas Durrande"
+  abstract: "Shows the equivalence between the forward propogation of the mean in a Deep Gaussian process (GP) and a fully-connected neural network layer. Method can be used to better initialise deep GPs and understand the uncertainty in DNNs."
   date: 2021-11-22
 
 - title: "Neural Diffusion Processes" 
   authors: "Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson"
   conference: "Arxiv"
-  date: 2022-05-22
+  abstract: "Denoising diffusion models for functions."
   links:
-    - name: pdf
+    - name: PDF
       url: "https://arxiv.org/pdf/2206.03992.pdf"
+    - name: BibTeX
+      url: "/papers/dutordoir2022.txt"
+  date: 2022-05-22
