@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \nI am a PhD Candidate in Information Engineering at the University of Cambridge, working with professor Zoubin Ghahramani and Carl Henrik Ek. I am also part-time affiliated to Secondmind, where I fulfil the role of senior machine learning researcher. I was fortunate to spend the second half of 2022 doing an internship at DeepMind, where I was part of the Safety Analysis team.\nMy research interests lie in probabilistic machine learning with applications in generative modelling and sequential decision making. - Gaussian processes - Deep Generative modelling - Stochastic Differential Equations.\nBesides my research, I love developing full-stack data-centric projects."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "",
+    "section": "Research",
+    "text": "Research\nHighlighted research papers. A complete list can be found on my Google scholar."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "",
+    "section": "News",
+    "text": "News\n\n    Website under development\n\n\n\n\n\n\n\n\nSept. 2022\nStart internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.\n\n\nSept. 2020\nNew paper on XXX\n\n\nSept. 2020\nStart PhD at University of Cambridge"
+  }
+]

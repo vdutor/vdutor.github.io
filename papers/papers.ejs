@@ -1,0 +1,21 @@
+
+```{=html}
+
+<% for (const item of items) { %>
+
+<div class="paper-card">
+<p class="paper-title"><%- item.title %></p>
+<p class="paper-authors"><%= item.authors %></p>
+<p class="paper-conference text-info"><%= item.conference %></p>
+<div class="d-flex flex-row flex-wrap">
+<% for (const l of item.links) { %>
+    <div>
+        <a href=<%= l.url %> class="paper-link" role="button"><%- l.name %></a>
+    </div>
+<% } %>
+</div>
+</div>
+
+<% } %>
+
+```

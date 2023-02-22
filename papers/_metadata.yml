@@ -1,0 +1,18 @@
+listing: 
+  max-description-length: 75
+  date-format: short
+  feed: true
+  filter-ui: false
+  type: table
+  sort-ui: false
+  sort: "date desc"
+  categories: false
+  fields: [title, conference, links]
+  field-links: [title]
+  field-display-names:
+    title: Title
+    conference: Conf
+    links: Links
+format:
+  html:
+    anchor-sections: true

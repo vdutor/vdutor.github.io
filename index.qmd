@@ -1,0 +1,93 @@
+---
+about:
+  id: hero-heading
+  template: trestles
+  image: me.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/vdutor
+    - icon: github
+      text: Github
+      href: https://github.com/vdutor
+    - icon: paperclip
+      text: Google Scholar
+      href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
+metadata-files: 
+  - papers/_metadata.yml
+listing: 
+  id: paper-listings
+  template: papers/papers.ejs
+  contents: papers/papers.yml
+---
+
+:::{#hero-heading}
+
+I am a PhD Candidate in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). I am also part-time affiliated to [Secondmind](https://www.secondmind.ai/), where I fulfil the role of senior machine learning researcher. I was fortunate to spend the second half of 2022 doing an internship at [DeepMind](https://www.deepmind.com/), where I was part of the Safety Analysis team.
+
+My research interests lie in probabilistic machine learning with applications in generative modelling and sequential decision making.
+- Gaussian processes
+- Deep Generative modelling
+- Stochastic Differential Equations.
+
+Besides my research, I love developing full-stack data-centric projects.
+
+:::
+
+## Research
+
+Highlighted research papers. A complete list can be found on my [Google scholar](https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en).
+
+::: {#papers-listings}
+:::
+
+
+
+## News
+
+```{=html}
+<div style="background-color: red;">
+    Website under development
+</div>
+```
+
+
+|  |  |
+|--|:-----|
+| Sept. 2022      |  Start internship at DeepMind. I'll be spending the fall in London working on technical analysis of transformer models.  |
+| Sept. 2020      |  New paper on XXX  |
+| Sept. 2020      |  Start PhD at University of Cambridge  |
+
+
+
+
+```{=html}
+<style>
+    .paper-card {
+        margin-top: 1.5rem;
+    }
+
+    .paper-card p{
+        margin: 0;
+    }
+
+    .paper-title {
+        font-size: 1.1rem;
+        margin-bottom: .1rem;
+        font-weight: bolder;
+    }
+
+    .paper-authors {
+        margin-bottom: 1rem;
+    }
+
+    .paper-link {
+        border-radius: 5px;
+        margin-right: .8rem;
+        font-size: 90%;
+    }
+
+    
+</style>
+```
+

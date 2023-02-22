@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: talks.qmd
+        text: Talks
+      - href: notes.qmd
+        text: Notes
+  search: false
+
+format:
+  html:
+    theme: 
+      light:
+        - simplex
+        - custom.scss
+    linkcolor: blue
+    css:
+      - styles.css
+    toc: true
