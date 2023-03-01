@@ -1,0 +1,5 @@
+---
+date:   March 2023
+title:  "Spherical Harmonics"
+description: "Spherical harmonics in Machine Learning"
+---

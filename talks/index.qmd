@@ -1,6 +1,13 @@
 # 🎤 Talks
 
-A list of lectures or talks that I’ve given with links to slides or recording if available:
+```{=html}
+<div class="bg-warning" style="padding: 20px 0px; text-align: center;">
+    Under development
+</div>
+```
+
+
+A list of lectures or invited talks that I’ve given with links to slides or recording if available:
 
 
 
@@ -8,8 +15,8 @@ A list of lectures or talks that I’ve given with links to slides or recording 
 
 |               |
 |---------------|
-| Genu |
-| GPSS |
+| Generative Models and Uncertainty Quantification [GeNU](https://genu.ai/2022/) in Copenhagen. [Slides](/talks/content/GenU.pdf) |
+| Gaussian Process Summer School in Sheffield. [Slides](/talks/content/gpss.html) |
 
 **2021**
 

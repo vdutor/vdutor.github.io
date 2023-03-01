@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2018-09-01">
+<meta name="description" content="Deep Q-Learning from scratch in TensorFlow to play Google T-Rex Game">
 
 <title>TF-rex: Playing Google’s T-rex game with TensorFlow</title>
 <style>
@@ -116,7 +117,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="TF-rex: Playing Google’s T-rex game with TensorFlow">
-<meta name="twitter:description" content="The goal of this project is to play Google’s offline T-rex Dino game using Deep Q-Learning. We use TensorFlow (TF) – hence the name TF-rex ;)">
+<meta name="twitter:description" content="Deep Q-Learning from scratch in TensorFlow to play Google T-Rex Game">
 <meta name="twitter:creator" content="@vdutor">
 <meta name="twitter:card" content="summary">
 </head>
@@ -137,11 +138,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html">
+    <a class="nav-link" href="../talks">
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes.html">
+    <a class="nav-link" href="../notes">
  <span class="menu-text">Notes</span></a>
   </li>  
 </ul>
@@ -171,7 +172,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </ul></li>
   <li><a href="#driver" id="toc-driver" class="nav-link" data-scroll-target="#driver">Driver</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#todo" id="toc-todo" class="nav-link" data-scroll-target="#todo">TODO</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
   <li><a href="#thanks" id="toc-thanks" class="nav-link" data-scroll-target="#thanks">Thanks!</a></li>
@@ -187,6 +187,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1 class="title">TF-rex: Playing Google’s T-rex game with TensorFlow</h1>
 </div>
 
+<div>
+  <div class="description">
+    Deep Q-Learning from scratch in TensorFlow to play Google T-Rex Game
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -206,7 +211,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </header>
 
 <p>The goal of this project is to play Google’s offline T-rex Dino game using Deep Q-Learning. We use TensorFlow (TF) – hence the name TF-rex ;)</p>
-<p>This blogpost accompanies the Github-project <a href="https://github.com/vdutor/TF-rex">TF-rex</a>.</p>
+<p>All source code and trained models can be found on <a href="https://github.com/vdutor/TF-rex">GitHub</a>.</p>
 <p>The goal of this project is to play Google’s offline T-rex Dino game using Reinforcement Learning (RL). The RL algorithm is based on the Deep Q-Learning algorithm [1] and is implemented in TensorFlow (TF), hence the name TF-rex ;).</p>
 <p>Google’s offline game consists of a T-rex striving to dodge obstacles, such as cactuses and birds, and surviving as long as possible. The dino is able to perform three actions: “jumping”, “ducking” and “going forward”. <a href="http://www.trex-game.skipser.com/">You can try it yourself</a>.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -216,7 +221,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </figure>
 </div>
 <p>In this post, I’ll talk about the project’s implementation, the RL setup and algorithms and the training procedure. We assume that the reader is familiar with the basics of RL. If not, no worries! <a href="https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0">This blogpost from Arthur Juliani</a> will quickly get you up to speed with some of the essentials.</p>
-<p>After reading this post, you should be able to fork the Github project and get going yourself. There are several ways to extend this work, we’ll discuss them below in the TODO section.</p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>We want to create an “AI algorithm” that can play Google Chrome’s T-rex game. This project isn’t the first one to try this, but compared to existing projects [2, 3], we do two things differently. First, the AI is interacting in <em>real-time</em> with the <em>real</em> game, hosted in the browser. We are not using any sort of emulator or framework to slow down the game or frame rate. While this makes the framework genuinely more interesting and more directly applicable to other browser-based games, it requires some extra engineering. For example, we need to extract the game state from the browser and implement a duplex channel to allow for communication between the AI program and the browser. This channel is necessary to pass information such as actions and game states.</p>
@@ -501,17 +505,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h4 class="anchored" data-anchor-id="runs-of-trained-model">Runs of trained model</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4B06SSRAf5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
 </iframe>
+<!-- ## TODO
+
+1. Implement more techniques to speed up the learning: e.g. gradient clipping and batch norm.
+2. Try the learning framework on other javascript browser games.
+3. Connect the game with other learning algorithms from, for example, [TensorForce](https://github.com/reinforceio/tensorforce).
+4. In all the models I've trained so far the dino prefers jumping over the birds rather than ducking underneath them. Eventhough I've modified the reward function to encourage the dino to duck instead of jump. It would be interesting to see which reward function or approach  makes the dino duck.
+5. ofcourse: improve the performance :) -->
 </section>
-</section>
-<section id="todo" class="level2">
-<h2 class="anchored" data-anchor-id="todo">TODO</h2>
-<ol type="1">
-<li>Implement more techniques to speed up the learning: e.g.&nbsp;gradient clipping and batch norm.</li>
-<li>Try the learning framework on other javascript browser games.</li>
-<li>Connect the game with other learning algorithms from, for example, <a href="https://github.com/reinforceio/tensorforce">TensorForce</a>.</li>
-<li>In all the models I’ve trained so far the dino prefers jumping over the birds rather than ducking underneath them. Eventhough I’ve modified the reward function to encourage the dino to duck instead of jump. It would be interesting to see which reward function or approach makes the dino duck.</li>
-<li>ofcourse: improve the performance :)</li>
-</ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>

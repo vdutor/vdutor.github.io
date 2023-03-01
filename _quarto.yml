@@ -8,15 +8,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: talks.qmd
+      - href: talks
         text: Talks
-      - href: notes.qmd
+      - href: notes
         text: Notes
   twitter-card:
      creator: "@vdutor"
   site-url: "https://vdutor.github.io/"
   page-footer:
-    center: "Last updated on 22 Feb 2023"
+    center: "Last updated on 01 Mar 2023"
       
 
   search: false

@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vdutor.github.io/notes.html</loc>
-    <lastmod>2023-02-22T22:32:52.506Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vdutor.github.io/talks.html</loc>
-    <lastmod>2023-02-22T22:32:52.891Z</lastmod>
+    <loc>https://vdutor.github.io/talks/index.html</loc>
+    <lastmod>2023-03-01T23:24:34.227Z</lastmod>
   </url>
   <url>
     <loc>https://vdutor.github.io/index.html</loc>
-    <lastmod>2023-02-22T22:32:53.307Z</lastmod>
+    <lastmod>2023-03-01T23:25:22.957Z</lastmod>
   </url>
   <url>
     <loc>https://vdutor.github.io/notes/tf-rex.html</loc>
-    <lastmod>2023-02-22T22:32:54.079Z</lastmod>
+    <lastmod>2023-03-01T23:24:35.451Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vdutor.github.io/notes/spherical-harmonics.html</loc>
+    <lastmod>2023-03-01T23:24:35.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vdutor.github.io/notes/index.html</loc>
+    <lastmod>2023-03-01T23:24:36.217Z</lastmod>
   </url>
 </urlset>

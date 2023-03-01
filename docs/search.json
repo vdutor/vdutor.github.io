@@ -1,31 +1,31 @@
 [
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
     "title": "",
     "section": "",
-    "text": "🎤 Talks\nA list of lectures or talks that I’ve given with links to slides or recording if available:\n2022\n\n\n\nGenu\n\n\nGPSS\n\n\n\n2021\n\n\n\n\n\n\nSpotlight talk: probprog 2021\n\n\nAI for the study of Environmental Risks (AI4ER). UKRI Centre for Doctoral Training. Guest lecture on Gaussian process models.\n\n\nStatML Oxford/Imperial College PhD program: Guest lecture on Variational Gaussian processes.\n\n\n\n2020\n\n\n\nPresentation at ICML 2020 on Spherical harmonic features in Gaussian processes. Slides\n\n\nPresentation at AISTATS 2020 on Deep Convolutional GPs Slides\n\n\nMicrosoft Research Cambridge: Research Spotlight. Slides\n\n\nLancaster University: Workshop on Simulations for Climate Modelling."
+    "text": "🎤 Talks\n\n    Under development\n\nA list of lectures or invited talks that I’ve given with links to slides or recording if available:\n2022\n\n\n\nGenerative Models and Uncertainty Quantification GeNU in Copenhagen. Slides\n\n\nGaussian Process Summer School in Sheffield. Slides\n\n\n\n2021\n\n\n\n\n\n\nSpotlight talk: probprog 2021\n\n\nAI for the study of Environmental Risks (AI4ER). UKRI Centre for Doctoral Training. Guest lecture on Gaussian process models.\n\n\nStatML Oxford/Imperial College PhD program: Guest lecture on Variational Gaussian processes.\n\n\n\n2020\n\n\n\nPresentation at ICML 2020 on Spherical harmonic features in Gaussian processes. Slides\n\n\nPresentation at AISTATS 2020 on Deep Convolutional GPs Slides\n\n\nMicrosoft Research Cambridge: Research Spotlight. Slides\n\n\nLancaster University: Workshop on Simulations for Climate Modelling."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "",
     "section": "News",
-    "text": "News\n2022\n\n\n\nDec 8th. Helped organizing a local NeurIPS meetup in Cambridge.\n\n\nSep 16th. Was invited to give a talk at GeNU 2022 in Copenhagen on diffusion models.\n\n\nSep 14th. Gave a lecture at the Gaussian process summer school in Sheffield on Spectral and Spherical Gaussian processes.\n\n\nSep 1st. Start internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.\n\n\nJuly. Organiser ELLIS summer school Cambridge: poster session and networking event july ’22\n\n\nJun 8th. New preprint out: Neural Diffusion Processes."
+    "text": "News\n\n\n\nDec 8, 2022. Helped organizing a local NeurIPS meetup in Cambridge.\n\n\nSep 16, 2022. Was invited to give a talk at GeNU 2022 in Copenhagen on diffusion models.\n\n\nSep 14, 2022. Gave a lecture at the Gaussian process summer school in Sheffield on Spectral and Spherical Gaussian processes.\n\n\nSep 1, 2022. Start internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.\n\n\nJul 16, 2022. Helped organizing the ELLIS summer school in Cambridge.\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "",
     "section": "Research",
-    "text": "Research\nHighlighted research papers. A complete list can be found on my Google scholar."
+    "text": "Research\nHighlighted research papers. A complete list can be found on my Google scholar.\n\n\nNeural Diffusion Processes\nVincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson\nArxiv\nDenoising diffusion models for functions.\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nDeep neural networks as point estimates for deep Gaussian processes\nVincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, Nicolas Durrande\nAdvances in Neural Information Processing Systems (NeurIPS 2021)\nShows the equivalence between the forward propogation of the mean in a Deep Gaussian process (GP) and a fully-connected neural network layer. Method can be used to better initialise deep GPs and understand the uncertainty in DNNs.\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nSparse Gaussian Processes with Spherical Harmonic Features\nVincent Dutordoir, Nicolas Durrande, James Hensman\nInternation Conference of Machine Learning (ICML 2020)\nWe derive the Reproducing Kernel Hilbert space for spherical kernels allowing us to design linear time Gausian processes (GPs).\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nNo matching items"
   },
   {
     "objectID": "notes/tf-rex.html",
     "href": "notes/tf-rex.html",
     "title": "TF-rex: Playing Google’s T-rex game with TensorFlow",
     "section": "",
-    "text": "The goal of this project is to play Google’s offline T-rex Dino game using Deep Q-Learning. We use TensorFlow (TF) – hence the name TF-rex ;)\nThis blogpost accompanies the Github-project TF-rex.\nThe goal of this project is to play Google’s offline T-rex Dino game using Reinforcement Learning (RL). The RL algorithm is based on the Deep Q-Learning algorithm [1] and is implemented in TensorFlow (TF), hence the name TF-rex ;).\nGoogle’s offline game consists of a T-rex striving to dodge obstacles, such as cactuses and birds, and surviving as long as possible. The dino is able to perform three actions: “jumping”, “ducking” and “going forward”. You can try it yourself.\nIn this post, I’ll talk about the project’s implementation, the RL setup and algorithms and the training procedure. We assume that the reader is familiar with the basics of RL. If not, no worries! This blogpost from Arthur Juliani will quickly get you up to speed with some of the essentials.\nAfter reading this post, you should be able to fork the Github project and get going yourself. There are several ways to extend this work, we’ll discuss them below in the TODO section."
+    "text": "The goal of this project is to play Google’s offline T-rex Dino game using Deep Q-Learning. We use TensorFlow (TF) – hence the name TF-rex ;)\nAll source code and trained models can be found on GitHub.\nThe goal of this project is to play Google’s offline T-rex Dino game using Reinforcement Learning (RL). The RL algorithm is based on the Deep Q-Learning algorithm [1] and is implemented in TensorFlow (TF), hence the name TF-rex ;).\nGoogle’s offline game consists of a T-rex striving to dodge obstacles, such as cactuses and birds, and surviving as long as possible. The dino is able to perform three actions: “jumping”, “ducking” and “going forward”. You can try it yourself.\nIn this post, I’ll talk about the project’s implementation, the RL setup and algorithms and the training procedure. We assume that the reader is familiar with the basics of RL. If not, no worries! This blogpost from Arthur Juliani will quickly get you up to speed with some of the essentials."
   },
   {
     "objectID": "notes/tf-rex.html#overview",
@@ -61,13 +61,6 @@
     "title": "TF-rex: Playing Google’s T-rex game with TensorFlow",
     "section": "Results",
     "text": "Results\nTraining a TF-rex model takes about half a day. As we are interacting with the real game, we can not speed-up this process – the TF-rex just has to play the games one-by-one. After training, TF-rex typically reaches a score of around 1600, which is reasonably good, but on average worse than when I play the game. The reason for this is that the speed of the game changes over time. At the start of the game the obstacles approach the dino at a relatively slow speed, but as the game advances the obstacles move faster and faster towards the dino. This causes two problems:\n\nThe probability that the dino dies before entering the increased velocity part is high. This limits the number of high-speed SARSA elements in the experience replay buffer, making our Memory highly unbalanced. As a result, when we sample uniformly from this memory we mainly end up with low-speed transitions that are used to optize the Bellman equation error. Effectively overlooking the behaviour of TF-rex in high-speed parts.\nExploration in these high-speed parts is typically catastrophical. Any uncontrolled jump or duck will result in a crash. This limits the dino to learn new behaviour in the changing environment.\n\nThese problems should be addressed, I’m open for suggestions. I believe Prioritized Experience Replay [9] could proof useful.\n\nProgress whilst learning\n\n\n\n\nRuns of trained model"
-  },
-  {
-    "objectID": "notes/tf-rex.html#todo",
-    "href": "notes/tf-rex.html#todo",
-    "title": "TF-rex: Playing Google’s T-rex game with TensorFlow",
-    "section": "TODO",
-    "text": "TODO\n\nImplement more techniques to speed up the learning: e.g. gradient clipping and batch norm.\nTry the learning framework on other javascript browser games.\nConnect the game with other learning algorithms from, for example, TensorForce.\nIn all the models I’ve trained so far the dino prefers jumping over the birds rather than ducking underneath them. Eventhough I’ve modified the reward function to encourage the dino to duck instead of jump. It would be interesting to see which reward function or approach makes the dino duck.\nofcourse: improve the performance :)"
   },
   {
     "objectID": "notes/tf-rex.html#references",

@@ -1,0 +1,18 @@
+---
+id: notes
+title: 📝 Notes
+search: false
+sidebar_position: 1
+listing:
+  contents: 
+   - "/*.qmd"
+---
+
+```{=html}
+<div class="bg-warning" style="padding: 20px 0px; text-align: center;">
+    Under development
+</div>
+```
+
+
+This is a place where I share some of my notes and will occasionally blog.

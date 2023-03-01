@@ -2,5 +2,12 @@
   {
     "listing": "/index.html",
     "items": []
+  },
+  {
+    "listing": "/notes/index.html",
+    "items": [
+      "/notes/spherical-harmonics.html",
+      "/notes/tf-rex.html"
+    ]
   }
 ]

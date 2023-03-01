@@ -1,13 +1,13 @@
 ---
 date:   September 2018
 title:  "TF-rex: Playing Google's T-rex game with TensorFlow"
-url: https://github.com/vdutor/personal-website-gatsby/blob/master/src/content/blog/TF-Rex.md
+description: "Deep Q-Learning from scratch in TensorFlow to play Google T-Rex Game"
 github: https://github.com/vdutor/TF-rex
 thumbnail: https://lh3.googleusercontent.com/jq1i1nFKtLmxQI70ss58AfAwZi0Ef44ie62bthVndVBeHrPL04Ea46560tm-Pdki7phe
 ---
 The goal of this project is to play Google's offline T-rex Dino game using Deep Q-Learning. We use TensorFlow (TF) &ndash; hence the name TF-rex ;)
 
-This blogpost accompanies the Github-project [TF-rex](https://github.com/vdutor/TF-rex).
+All source code and trained models can be found on [GitHub](https://github.com/vdutor/TF-rex).
 
 The goal of this project is to play Google's offline T-rex Dino game using Reinforcement Learning (RL).
 The RL algorithm is based on the Deep Q-Learning algorithm [1] and is implemented in TensorFlow (TF), hence the name TF-rex ;).
@@ -18,7 +18,6 @@ Google's offline game consists of a T-rex striving to dodge obstacles, such as c
 
 In this post, I'll talk about the project's implementation, the RL setup and algorithms and the training procedure. We assume that the reader is familiar with the basics of RL. If not, no worries! [This blogpost from Arthur Juliani](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0) will quickly get you up to speed with some of the essentials.
 
-After reading this post, you should be able to fork the Github project and get going yourself. There are several ways to extend this work, we'll discuss them below in the TODO section.
 
 ## Overview
 
@@ -355,13 +354,13 @@ These problems should be addressed, I'm open for suggestions. I believe Prioriti
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4B06SSRAf5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## TODO
+<!-- ## TODO
 
 1. Implement more techniques to speed up the learning: e.g. gradient clipping and batch norm.
 2. Try the learning framework on other javascript browser games.
 3. Connect the game with other learning algorithms from, for example, [TensorForce](https://github.com/reinforceio/tensorforce).
 4. In all the models I've trained so far the dino prefers jumping over the birds rather than ducking underneath them. Eventhough I've modified the reward function to encourage the dino to duck instead of jump. It would be interesting to see which reward function or approach  makes the dino duck.
-5. ofcourse: improve the performance :)
+5. ofcourse: improve the performance :) -->
 
 ## References
 

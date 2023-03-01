@@ -15,12 +15,24 @@ about:
     - icon: mailbox
       text: Mail
       href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
-metadata-files: 
-  - papers/_metadata.yml
 listing: 
-  id: paper-listings
-  template: papers/papers.ejs
-  contents: papers/papers.yml
+  - id: paper-listing
+    template: papers/papers.ejs
+    contents: papers/papers.yml
+    sort: "date desc"
+  - id: news-listing
+    contents: news/news.yml
+    template: news/news.ejs
+    date-format: "MMM D, YYYY"
+    filter-ui: false
+    sort-ui: false
+    sort: "date desc"
+    categories: false
+    fields: [title, date]
+    field-display-names:
+      title: '2022'
+    table-striped: true
+
 ---
 
 ```{=html}
@@ -29,17 +41,11 @@ listing:
 </head>
 ```
 
-```{=html}
-<div class="bg-warning" style="padding: 20px 0px; text-align: center;">
-    Website under development
-</div>
-```
-
 :::{#hero-heading}
 
 Hi there! I'm Vincent Dutordoir, a PhD student in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
 
-Prior to my PhD, I worked for a couple of years at [Secondmind](https://www.secondmind.ai/) as a machine learning research. I'm still affiliated to Secondmind on a part-time basis since starting my PhD. In fall 2022, I did an internship in [DeepMind](https://www.deepmind.com/)'s safety analysis team.
+Prior to my PhD, I worked for a couple of years at [Secondmind](https://www.secondmind.ai/) as a machine learning researcher. I'm still affiliated to Secondmind on a part-time basis since starting my PhD. In fall 2022, I did an internship at [DeepMind](https://www.deepmind.com/).
 
 My research focuses on the intersection of statistical methods and deep learning, with applications in generative modelling and sequential decision making. Recently, I have been excited about defining [stochastic processes using denoising diffusion models](https://arxiv.org/abs/2206.03992).
 
@@ -60,25 +66,18 @@ on `dutordoirv@gmail.com`.
 
 
 
-## News
+## News 
 
-**2022**
+::: {#news-listing}
+:::
 
-
-|         |
-|:------|
-| **Dec 8th.** Helped organizing a local [NeurIPS meetup in Cambridge](https://www.neuripsmeetupcambridge.info/). |
-| **Sep 16th.** Was invited to give a talk at [GeNU 2022](https://genu.ai/2022/) in Copenhagen on diffusion models. |
-| **Sep 14th.** Gave a lecture at the Gaussian process summer school in Sheffield on [Spectral and Spherical Gaussian processes](https://gpss.cc/gpss22/slides/Vincent.html).
-| **Sep 1st.** Start internship at DeepMind. I'll be spending the fall in London working on technical analysis of transformer models.  |
-| **July.** Organiser ELLIS summer school Cambridge: poster session and networking event july '22|
-| **Jun 8th.** New preprint out: [Neural Diffusion Processes](https://arxiv.org/abs/2206.03992).  |
 
 
 ## Research
 
 Highlighted research papers. A complete list can be found on my [Google scholar](https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en).
 
-::: {#papers-listings}
+::: {#paper-listing}
 :::
+
 
