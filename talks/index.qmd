@@ -1,36 +1,39 @@
 # 🎤 Talks
 
-```{=html}
-<div class="bg-warning" style="padding: 20px 0px; text-align: center;">
-    Under development
-</div>
-```
-
 
 A list of lectures or invited talks that I’ve given with links to slides or recording if available:
 
 
+**2023**
+
+|               |
+|---------------|
+| Reading group on Scalable Approaches to Self-Supervised Learning using Spectral Analysis in CBL in Cambridge. [Notes](https://hackmd.io/@vdutor/HJIEcNol3) |
+| Tutorial on Score-based generative modelling and Introduction to ongoing research for SUMO at Ghent University. [Slides (PDF)](/talks/content/neural_diffusion_processes_sumo.pdf). |
 
 **2022**
 
 |               |
 |---------------|
-| Generative Models and Uncertainty Quantification [GeNU](https://genu.ai/2022/) in Copenhagen. [Slides](/talks/content/GenU.pdf) |
+| Tea talk at CBL Cambridge on "How in-context learning of transformers can be cast as Bayesian inference".  [Slides](/talks/content/tea-talk-incontext-learning.pdf) |
+| Generative Models and Uncertainty Quantification [(GeNU)](https://genu.ai/2022/) in Copenhagen. [Slides](/talks/content/GenU.pdf) |
 | Gaussian Process Summer School in Sheffield. [Slides](/talks/content/gpss.html) |
+| Research Talk at CBL in Cambridge on Spherical Gaussian Processes. [Slides](/talks/content/research_talk_cbl_spherical_gaussian_processes.pdf) |
+| Reading group on Diffusion models in CBL in Cambridge. [Slides](https://drive.google.com/file/d/1cF64D--5T0g4O4uSIEGEEgVkz4506Cji/view?usp=sharing) |
 
 **2021**
 
 |               |
 |---------------|
 | Spotlight talk: probprog 2021|
-|AI for the study of Environmental Risks (AI4ER). UKRI Centre for Doctoral Training. Guest lecture on Gaussian process models.|
+|AI for the study of Environmental Risks (AI4ER). Guest lecture on Gaussian process models and their applications. [Slides](/talks/content/Whirlwind_Tour_of_Gaussian_process_models.pdf) |
 | StatML Oxford/Imperial College PhD program: Guest lecture on Variational Gaussian processes. |
 
 **2020**
 
 |               |
 |---------------|
-|  Presentation at ICML 2020 on Spherical harmonic features in Gaussian processes. [Slides](/talks/content/VISH.pdf) |
-|  Presentation at AISTATS 2020 on Deep Convolutional GPs [Slides](/talks/content/TICK.pdf) |
-|  Microsoft Research Cambridge: Research Spotlight. [Slides]() |
+|  ICML 2020 on Spherical harmonic features in Gaussian processes. [Slides](/talks/content/VISH.pdf) |
+|  AISTATS 2020 on Deep Convolutional Gaussian Processes [Slides](/talks/content/TICK.pdf) |
+|  Microsoft Research Cambridge: Research Spotlight. |
 |  Lancaster University: Workshop on Simulations for Climate Modelling. |

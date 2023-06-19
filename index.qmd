@@ -43,7 +43,7 @@ listing:
 
 :::{#hero-heading}
 
-Hi there! I'm Vincent Dutordoir, a PhD student in Information Engineering at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
+Hi! I'm Vincent Dutordoir, a PhD student in Probabilistic Machine Learning at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
 
 Prior to my PhD, I worked for a couple of years at [Secondmind](https://www.secondmind.ai/) as a machine learning researcher. I'm still affiliated to Secondmind on a part-time basis since starting my PhD. In fall 2022, I did an internship at [DeepMind](https://www.deepmind.com/).
 

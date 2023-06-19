@@ -22,8 +22,8 @@
 
 - title: "Neural Diffusion Processes" 
   authors: "Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson"
-  conference: "Arxiv"
-  abstract: "Denoising diffusion models for functions."
+  conference: "International Conference on Machine Learning (ICML 2023)"
+  abstract: "Generative models that define a probabilistic model over functions via their finite marginals using probabilistic diffusion models."
   links:
     - name: PDF
       url: "https://arxiv.org/pdf/2206.03992.pdf"

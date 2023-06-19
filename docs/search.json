@@ -4,21 +4,21 @@
     "href": "talks/index.html",
     "title": "",
     "section": "",
-    "text": "🎤 Talks\n\n    Under development\n\nA list of lectures or invited talks that I’ve given with links to slides or recording if available:\n2022\n\n\n\nGenerative Models and Uncertainty Quantification GeNU in Copenhagen. Slides\n\n\nGaussian Process Summer School in Sheffield. Slides\n\n\n\n2021\n\n\n\n\n\n\nSpotlight talk: probprog 2021\n\n\nAI for the study of Environmental Risks (AI4ER). UKRI Centre for Doctoral Training. Guest lecture on Gaussian process models.\n\n\nStatML Oxford/Imperial College PhD program: Guest lecture on Variational Gaussian processes.\n\n\n\n2020\n\n\n\nPresentation at ICML 2020 on Spherical harmonic features in Gaussian processes. Slides\n\n\nPresentation at AISTATS 2020 on Deep Convolutional GPs Slides\n\n\nMicrosoft Research Cambridge: Research Spotlight. Slides\n\n\nLancaster University: Workshop on Simulations for Climate Modelling."
+    "text": "🎤 Talks\nA list of lectures or invited talks that I’ve given with links to slides or recording if available:\n2023\n\n\n\nReading group on Scalable Approaches to Self-Supervised Learning using Spectral Analysis in CBL in Cambridge. Notes\n\n\nTutorial on Score-based generative modelling and Introduction to ongoing research for SUMO at Ghent University. Slides (PDF).\n\n\n\n2022\n\n\n\nTea talk at CBL Cambridge on “How in-context learning of transformers can be cast as Bayesian inference”. Slides\n\n\nGenerative Models and Uncertainty Quantification (GeNU) in Copenhagen. Slides\n\n\nGaussian Process Summer School in Sheffield. Slides\n\n\nResearch Talk at CBL in Cambridge on Spherical Gaussian Processes. Slides\n\n\nReading group on Diffusion models in CBL in Cambridge. Slides\n\n\n\n2021\n\n\n\nSpotlight talk: probprog 2021\n\n\nAI for the study of Environmental Risks (AI4ER). Guest lecture on Gaussian process models and their applications. Slides\n\n\nStatML Oxford/Imperial College PhD program: Guest lecture on Variational Gaussian processes.\n\n\n\n2020\n\n\n\nICML 2020 on Spherical harmonic features in Gaussian processes. Slides\n\n\nAISTATS 2020 on Deep Convolutional Gaussian Processes Slides\n\n\nMicrosoft Research Cambridge: Research Spotlight.\n\n\nLancaster University: Workshop on Simulations for Climate Modelling."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "",
     "section": "News",
-    "text": "News\n\n\n\nDec 8, 2022. Helped organizing a local NeurIPS meetup in Cambridge.\n\n\nSep 16, 2022. Was invited to give a talk at GeNU 2022 in Copenhagen on diffusion models.\n\n\nSep 14, 2022. Gave a lecture at the Gaussian process summer school in Sheffield on Spectral and Spherical Gaussian processes.\n\n\nSep 1, 2022. Start internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.\n\n\nJul 16, 2022. Helped organizing the ELLIS summer school in Cambridge.\n\n\n\nNo matching items"
+    "text": "News\n\n\n\nJun 1, 2023. Very happy to have three papers accepted at ICML 2023 on Neural Diffusion Processes, Memory-based Meta-Learning and Spherical-Orthogonal features.\n\n\nDec 8, 2022. Helped organizing a local NeurIPS meetup in Cambridge.\n\n\nSep 16, 2022. Was invited to give a talk at GeNU 2022 in Copenhagen on diffusion models.\n\n\nSep 14, 2022. Gave a lecture at the Gaussian process summer school in Sheffield on Spectral and Spherical Gaussian processes.\n\n\nSep 1, 2022. Start internship at DeepMind. I’ll be spending the fall in London working on technical analysis of transformer models.\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "",
     "section": "Research",
-    "text": "Research\nHighlighted research papers. A complete list can be found on my Google scholar.\n\n\nNeural Diffusion Processes\nVincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson\nArxiv\nDenoising diffusion models for functions.\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nDeep neural networks as point estimates for deep Gaussian processes\nVincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, Nicolas Durrande\nAdvances in Neural Information Processing Systems (NeurIPS 2021)\nShows the equivalence between the forward propogation of the mean in a Deep Gaussian process (GP) and a fully-connected neural network layer. Method can be used to better initialise deep GPs and understand the uncertainty in DNNs.\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nSparse Gaussian Processes with Spherical Harmonic Features\nVincent Dutordoir, Nicolas Durrande, James Hensman\nInternation Conference of Machine Learning (ICML 2020)\nWe derive the Reproducing Kernel Hilbert space for spherical kernels allowing us to design linear time Gausian processes (GPs).\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nNo matching items"
+    "text": "Research\nHighlighted research papers. A complete list can be found on my Google scholar.\n\n\nNeural Diffusion Processes\nVincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson\nInternational Conference on Machine Learning (ICML 2023)\nGenerative models that define a probabilistic model over functions via their finite marginals using probabilistic diffusion models.\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nDeep neural networks as point estimates for deep Gaussian processes\nVincent Dutordoir, James Hensman, Mark van der Wilk, Carl Henrik Ek, Zoubin Ghahramani, Nicolas Durrande\nAdvances in Neural Information Processing Systems (NeurIPS 2021)\nShows the equivalence between the forward propogation of the mean in a Deep Gaussian process (GP) and a fully-connected neural network layer. Method can be used to better initialise deep GPs and understand the uncertainty in DNNs.\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nSparse Gaussian Processes with Spherical Harmonic Features\nVincent Dutordoir, Nicolas Durrande, James Hensman\nInternation Conference of Machine Learning (ICML 2020)\nWe derive the Reproducing Kernel Hilbert space for spherical kernels allowing us to design linear time Gausian processes (GPs).\n\n    \n        PDF\n    \n    \n        BibTeX\n    \n\n\n\nNo matching items"
   },
   {
     "objectID": "notes/tf-rex.html",
@@ -68,5 +68,229 @@
     "title": "TF-rex: Playing Google’s T-rex game with TensorFlow",
     "section": "References",
     "text": "References\n[1] Playing Atari with Deep Reinforcement Learning  [2] AI for Chrome Offline Game  [3] IAMDinosaur  [4] Wikipedia page RL  [5] Open AI Gym  [6] RL course David Silver  [7] RL blogpost  [8] Target network paper  [9] Prioritized Experience Replay\n\nThanks!\nThanks for reading this lengthy post about my project. Hope you enjoyed it and found it useful in some way. If you have any question, please don’t hesitate to drop me an email or find me on twitter."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#hi-im-vincent",
+    "href": "talks/content/sumo/presentation.html#hi-im-vincent",
+    "title": "",
+    "section": "Hi, I’m Vincent 👋",
+    "text": "Hi, I’m Vincent 👋"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#hi-im-vincent-1",
+    "href": "talks/content/sumo/presentation.html#hi-im-vincent-1",
+    "title": "",
+    "section": "Hi, I’m Vincent 👋",
+    "text": "Hi, I’m Vincent 👋\n\n\nFinished my Bachelor’s and Masters at Ghent University in 2017\nMoved to Cambridge (UK) straight after to work for a startup PROWLER.io\nStarted my PhD at Cambridge University in 2020\nSenior ML researcher at Secondmind.ai"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#outline",
+    "href": "talks/content/sumo/presentation.html#outline",
+    "title": "",
+    "section": "Outline",
+    "text": "Outline\nThe talk will consist of two parts:\n\n\nA tutorially overview of energy-based models, and how this has led to diffusion models.\nDiffusion models for stochastic processes.\n\n\n\n\nCredits to Yang Song, Michael Hutchinson, and Arnaud Doucet for some of the images and slide material."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#generative-modelling",
+    "href": "talks/content/sumo/presentation.html#generative-modelling",
+    "title": "",
+    "section": "Generative modelling",
+    "text": "Generative modelling\n\n\nGiven: dataset \\(\\{\\v{x}_i\\}_{i=1}^n\\)\nGoal: fit a model \\(p_\\theta(\\v{x})\\) to the data distribution\n\n\n\n\n\n\nIllustration generative modelling (from: openai.com)"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#energy-based-models",
+    "href": "talks/content/sumo/presentation.html#energy-based-models",
+    "title": "",
+    "section": "Energy-based models",
+    "text": "Energy-based models\nA density defined through an energy function \\(U_\\theta: \\R^d \\rightarrow \\R\\): \\[\np_{\\theta}(\\v{x}) = \\frac{\\textrm{e}^{-U_\\theta(x)}}{Z_\\theta},\\quad\n\\]\n\nWe can fit this energy function by maximising the log likelihood: \\[\\begin{equation}\n    \\theta^* = \\max_\\theta \\sum_{i=1}^N \\log p_\\theta(\\v{x}_i)\n\\end{equation}\\]\n\n\n️⚠️️ Intractable normalizing constant: \\(Z_\\theta = \\int_{\\R^d} \\textrm{e}^{-U_\\theta(\\v{x})}\\d \\v{x}\\)."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#score-function",
+    "href": "talks/content/sumo/presentation.html#score-function",
+    "title": "",
+    "section": "Score function",
+    "text": "Score function\nModelling the density through the score function\n\\[\n\\nabla_{\\v{x}} \\log p(\\v{x})\n\\approx s_\\theta(\\v{x}).\n\\]\n\nThe score does not depend on the normalizing constant. Let \\(p(x) = \\frac{q(x)}{Z}\\)\n\n\n\\[\n\\nabla_x \\log \\frac{q(x)}{Z}  = \\nabla_x \\log q(x) - \\colorbox{white}{$\\nabla_x \\log Z$}\n\\]\n\n\n\\[\n\\nabla_x \\log \\frac{q(x)}{Z}  = \\nabla_x \\log q(x) - \\underbrace{\\colorbox{orange}{$\\nabla_x \\log Z$}}_{= 0}\n\\]\n\n\n\n\n\n\n\n\n\n\n\\(p(x)\\)\n\n\n\n\n\n\n\n\n\\(\\nabla_x \\log p(x)\\)"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#langevin-dynamics",
+    "href": "talks/content/sumo/presentation.html#langevin-dynamics",
+    "title": "",
+    "section": "Langevin dynamics",
+    "text": "Langevin dynamics\n\nTheorem 1 The density of \\(\\v{x}_t\\) as \\(t\\rightarrow\\infty\\) for the SDE \\[\n\\d \\v{x}_t = \\nabla \\log p(\\v{x}_t) \\d t + \\sqrt{2} \\d \\v{W}_t\n\\] is given by \\(p(\\v{x})\\), where \\(\\v{W}_t\\) is standard Brownian motion.\n\n\nEuler-Marayuma\nFirst-order discretization of continuous SDE. For a small stepsize \\(\\gamma\\) we can \\[\n\\v{x}_{k+1} = \\v{x}_k + \\gamma \\nabla \\log p(\\v{x}_k) + \\sqrt{2}\\v{z}_k,\\quad \\v{z}_k \\sim \\c{N}(0,\\gamma \\m{I})\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#fisher-divergence",
+    "href": "talks/content/sumo/presentation.html#fisher-divergence",
+    "title": "",
+    "section": "Fisher divergence",
+    "text": "Fisher divergence\nWe can train score-based models by minimizing the Fisher divergence between the model and the data distributions\n\\[\n    \\E_{p(\\v{x})}\\Big[{\\|\\nabla_{\\v{x}} \\log p(\\v{x})\\ - {\\mathbf{s}_\\theta}(\\v{x})\\|^2}\\Big].\n\\]\n\n\n\nInfeasible because it requires access to the unknown data score.\nScore-matching: Hyvärinen (2005), Vincent (2011), Song et al. (2019)"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#learning-the-score-explicit",
+    "href": "talks/content/sumo/presentation.html#learning-the-score-explicit",
+    "title": "",
+    "section": "Learning the score (Explicit)",
+    "text": "Learning the score (Explicit)\nWe would like to explicitly match a parametric score to the (true) score, minimising, with a loss like \\[\\begin{equation}\n    \\ell_{\\mathrm{esm}}({\\mathbf{s}_\\theta}) \\triangleq \\E_{p(\\v{x})}\\Big[{\\|\\nabla_{\\v{x}} \\log p(\\v{x})\\ - {\\mathbf{s}_\\theta}(\\v{x})\\|^2}\\Big].\n\\end{equation}\\]\n\n⚠️ Requires having the true score of \\(p(\\v{x})\\)…"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#learning-the-score-implicit",
+    "href": "talks/content/sumo/presentation.html#learning-the-score-implicit",
+    "title": "",
+    "section": "Learning the score (Implicit)",
+    "text": "Learning the score (Implicit)\nThe explicit objective can be written without requiring the true score\n(Hyvärinen 2005)\n\\[\\begin{equation}\n    \\ell_{\\mathrm{ism}}({\\mathbf{s}_\\theta}) \\triangleq \\E_{p(\\v{x})}\\Big[\\nabla_{\\v{x}} \\cdot {\\mathbf{s}_\\theta}(\\v{x}) + \\frac{1}{2}\\|{\\mathbf{s}_\\theta}(\\v{x})\\|^2\\Big] = \\frac{1}{2} \\ell_{\\mathrm{esm}}({\\mathbf{s}_\\theta})  + C\n\\end{equation}\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#naive-score-based-generative-modeling",
+    "href": "talks/content/sumo/presentation.html#naive-score-based-generative-modeling",
+    "title": "",
+    "section": "Naive score-based generative modeling",
+    "text": "Naive score-based generative modeling\n\\[\n\\]\n\nScore-based generative modeling with score matching + Langevin dynamics. (from: Yang Song)"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#pitfalls",
+    "href": "talks/content/sumo/presentation.html#pitfalls",
+    "title": "",
+    "section": "Pitfalls",
+    "text": "Pitfalls\n\\[\n\\]\n\n\n\nScore is badly estimated in low-density areas\n\n\n\n\nLangevin dynamics has slow mixing rates"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#multiple-noise-levels",
+    "href": "talks/content/sumo/presentation.html#multiple-noise-levels",
+    "title": "",
+    "section": "Multiple noise levels",
+    "text": "Multiple noise levels\n\nGaussian noise to perturb the data distributionSong and Ermon (2019) suggest to perturb data points such that they populate low data density regimes."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#markov-chain",
+    "href": "talks/content/sumo/presentation.html#markov-chain",
+    "title": "",
+    "section": "Markov chain",
+    "text": "Markov chain\n\n\nConsider a Markov chain \\(\\v{x}_0 \\sim p_{0}\\) and \\(\\v{x}_{k+1} \\sim p_{k+1|k}(\\cdot | \\v{x}_k)\\), which gives\n\n\n\nForward\n\\[\np(\\v{x}_{0:K}) = p_0(\\v{x}_0) \\prod_{k=0}^{K-1} p_{k+1|k}(\\v{x}_{k+1} | \\v{x}_k)\n\\]\n\n\n\nBackward\n\\[\np(\\v{x}_{0:K}) = p_K(\\v{x}_K) \\prod_{k=K-1}^{0} p_{k|k+1}(\\v{x}_{k} | \\v{x}_{k+1})\n\\]\n\nwhere \\(p_{k|k+1}(\\v{x}_{k} | \\v{x}_{k+1})\\) is unknown but can be obtained with Bayes’ rule."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#generative-modelling-with-multiple-noise-levels",
+    "href": "talks/content/sumo/presentation.html#generative-modelling-with-multiple-noise-levels",
+    "title": "",
+    "section": "Generative modelling with multiple noise levels",
+    "text": "Generative modelling with multiple noise levels\n\nLet \\[\np_0 = p_{data}\n\\]\nChoose \\[\np_{k+1|k}(\\v{x}_{k+1} | \\v{x}_k) = \\c{N}(\\v{x}_{k+1}| \\alpha \\v{x}_k, (1 - \\alpha^2)\\m{I})\n\\]\nsuch that for large enough \\(K\\) we have \\[\np_K \\approx p_{ref} = \\c{N}(0, \\m{I}).\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#backward-transition",
+    "href": "talks/content/sumo/presentation.html#backward-transition",
+    "title": "",
+    "section": "Backward transition",
+    "text": "Backward transition\n\nFor sampling we need the reverse kernel \\(p_{k|k+1}\\), given through Bayes’ rule \\[\np_{k|k+1}(\\v{x}_{k} | \\v{x}_{k+1}) =  \\frac{p_{k+1|k}(\\v{x}_{k+1}|\\v{x}_k)p_k(\\v{x}_k)}{p_{k+1}(\\v{x}_{k+1})}\n\\] which is unfortunately intractable!\n\n\n\nUsing a Taylor approximation one can show \\[\np_{k|k+1}(\\v{x}_{k} | \\v{x}_{k+1}) \\approx \\c{N}\\Big(\\v{x}_k | (2 - \\alpha) \\v{x}_{k+1} + (1-\\alpha^2)\n\\colorbox{orange}{$\\nabla \\log p_{k+1}(\\v{x}_{k+1})$},\n(1-\\alpha^2)\\m{I}\\Big)\n\\]\n\n\n\n\nApproximate score with neural net \\(s_{\\theta}(\\v{x}_{k+1}, k+1) \\approx \\nabla \\log p_{k+1}(\\v{x}_{k+1})\\).\n\n\n\n\nSampling start with \\(\\v{x}_K \\sim p_{ref}(\\v{x}_K)\\) and then uses the reverse kernel \\[\n\\v{x}_k = (2 - \\alpha) \\v{x}_{k+1} + (1-\\alpha^2) s_{\\theta}(\\v{x}_{k+1}, k+1) + (1-\\alpha^2)\\v{\\epsilon}\n\\qquad \\v{\\epsilon} \\sim \\c{N}(\\v{0},\\m{I}).\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#score",
+    "href": "talks/content/sumo/presentation.html#score",
+    "title": "",
+    "section": "Score",
+    "text": "Score\nThe score \\(\\nabla \\log p_k(\\v{x}_k)\\) is required but analytically unavailable. However, using\n\\[\np_{k}(\\v{x}_{k}) = \\int p(\\v{x}_0) p_{k|0}(\\v{x}_{k} | \\v{x}_0) \\d \\v{x}_{0}\n\\]\nit follows\n\\[\n\\nabla \\log p_{k}(\\v{x}_{k}) = \\mathbb{E}_{\\v{x}_0 \\sim  p(\\cdot | \\v{x}_k)}\\Big[ \\nabla \\log p_{k|0}(\\v{x}_k | \\v{x}_0) | \\v{x}_k \\Big]\n\\]\n\nA conditional expectation can be written as a regression problem (by definition), which gives \\[\n\\nabla \\log p_{k}(\\v{x}_{k}) = \\textrm{argmin}_{\\theta}\\,\\mathbb{E}_{\\v{x}_0,\\v{x}_{k}} \\Big[ \\| s_{\\theta}(\\v{x}_{k}) - \\nabla_{\\v{x}_k}\\log p_{k|0}(\\v{x}_{k}|\\v{x}_0)\\|^2\\Big]\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#annealed-langevin-dynamics",
+    "href": "talks/content/sumo/presentation.html#annealed-langevin-dynamics",
+    "title": "",
+    "section": "Annealed Langevin Dynamics",
+    "text": "Annealed Langevin Dynamics\n\n\\(\\approx\\) Noise Conditional Score Network (NCSN) by Song and Ermon (2019)\n\\(\\approx\\) Denoising Diffusion Probabilistic Models (DDPM) by Ho, Jain, and Abbeel (2020)\n\n\n\n\n\n\n\nCeleb A\n\n\n\n\n\n\n\n\nCIFAR-10"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#perturbing-data-with-an-sde-in-continuous-time",
+    "href": "talks/content/sumo/presentation.html#perturbing-data-with-an-sde-in-continuous-time",
+    "title": "",
+    "section": "Perturbing data with an SDE in continuous time",
+    "text": "Perturbing data with an SDE in continuous time\nFrom a (large) discrete set of noise scales \\(\\rightarrow\\) continuous number.\n\n\n\n\nForward SDE runs\n\n\n\n\nThe SDE can be written as \\[\n\\d \\v{x}_t = f(\\v{x}_t, t) \\d t + g(t) \\d \\m{W}_t,\\qquad \\v{x}_0 \\sim p_{data}\n\\] where \\(f\\) and \\(g\\) are the drift and diffusion terms, and \\(\\m{W}_t\\) is standard Brownian motion. Heuristically, you can think of it as “\\(\\d \\m{W}/\\d t \\sim \\c{N}(0, \\d t)\\)”."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#reversing-the-sde-for-sample-generation",
+    "href": "talks/content/sumo/presentation.html#reversing-the-sde-for-sample-generation",
+    "title": "",
+    "section": "Reversing the SDE for sample generation",
+    "text": "Reversing the SDE for sample generation\n\n\n\n\nGenerating data following the reverse SDE\n\n\n\nReverse process (Nelson’s duality)\n\\[\n\\d \\v{x}_t = \\big[f(\\v{x}_t, t) - g^2(t) \\nabla_\\v{x} \\log p_t(\\v{x})\\big] \\d t + g(t) \\d \\bar{\\m{W}}_t,\\quad \\v{x}_T \\sim p_T\n\\] where \\(\\d t\\) represents a negative infinitesimal time step as \\(t=T \\rightarrow 0\\)."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#generative-modelling-by-approximating-the-reverse-process",
+    "href": "talks/content/sumo/presentation.html#generative-modelling-by-approximating-the-reverse-process",
+    "title": "",
+    "section": "Generative modelling by approximating the reverse process",
+    "text": "Generative modelling by approximating the reverse process\nExact reverse process\n\\[\n\\d \\v{x}_t = \\big[f(\\v{x}_t, t) - g^2(t) \\colorbox{orange}{$\\nabla_\\v{x} \\log p_t(\\v{x})$}\\big] \\d t + g(t) \\d \\bar{\\m{W}}_t,\\quad \\v{x}_T \\sim \\colorbox{lightgray}{$p_T$}\n\\]\nGenerative model\n\\[\n\\d \\v{x}_t = \\big[f(\\v{x}_t, t) - g^2(t) \\colorbox{orange}{$s_{\\theta^*}(\\v{x}_t, t)$}\\big] \\d t + g(t) \\d \\bar{\\m{W}}_t,\\quad \\v{x}_T \\sim \\colorbox{lightgray}{$p_{ref}$}\n\\]\n\nThe score is learned using score-matching, similar to before\n\\[\n\\theta^* = \\textrm{argmin}_{\\theta} \\Big[\\mathbb{E}_{\\v{x}_0,\\v{x}_{t}} \\| s_{\\theta}(\\v{x}_{t}, t) - \\nabla_{\\v{x}_t}\\log p_{t|0}(\\v{x}_{t}|\\v{x}_0)\\|^2\\Big]\n\\]\n\n\nFor OU processes \\(p_{t|0}(\\v{x}_{t}|\\v{x}_0)\\) can analytically be computed using the Fokker-Planck equations and leads to simple expression of the form \\[\np_{t|0}(\\v{x}_{t}|\\v{x}_0) = \\c{N}\\big(\\v{x}_t; \\textrm{e}^{-t} \\v{x}_0, (1-\\textrm{e}^{-2t}) \\m{I}\\big)\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#continuous-time-denoising-song2021scorebased",
+    "href": "talks/content/sumo/presentation.html#continuous-time-denoising-song2021scorebased",
+    "title": "",
+    "section": "Continuous-time denoising — Song et al. (2021)",
+    "text": "Continuous-time denoising — Song et al. (2021)\n\nForward-Reverse\n\nContinuous-time formulation generalizes the discrete approaches.\n\n\n\n\nLog-likelihood computations \\(\\log p_\\theta(\\v{x}_0)\\) (not shown here)."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#motivation",
+    "href": "talks/content/sumo/presentation.html#motivation",
+    "title": "",
+    "section": "Motivation",
+    "text": "Motivation\n\nDiffusion models have been used on different data modalities:"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#diffusion-models-for-functions",
+    "href": "talks/content/sumo/presentation.html#diffusion-models-for-functions",
+    "title": "",
+    "section": "Diffusion models for ‘functions’",
+    "text": "Diffusion models for ‘functions’\n\nDistribution over functions"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#perturbing-function-values-using-ou-process",
+    "href": "talks/content/sumo/presentation.html#perturbing-function-values-using-ou-process",
+    "title": "",
+    "section": "Perturbing function-values using OU process",
+    "text": "Perturbing function-values using OU process\nLet \\(\\m{X} \\in \\R^{n \\times d}\\) and \\(\\v{y}(\\v{X}) \\in \\R^n\\), we define the forward noising process as \\[\n\\d \\v{y}_t(\\m{X}) = -\\frac{1}{2} \\v{y}_t(\\m{X}) \\d t + \\d \\m{W}_t\n\\]\nOur random variable \\(\\{\\v{y}_t\\}_{t=0}^T\\) is now a function which depends on inputs \\(\\m{X}\\).\n\nUsing Fokker-Planck, we can compute the marginal density in closed-form for for this process \\[\np_{t|0}(\\v{y}_t(\\m{X}) | \\v{y}_0(\\m{X})) = \\c{N}\\Big(\\textrm{e}^{-\\frac{1}{2} \\v{y}_0(\\m{X})}, (1 - \\textrm{e}^{-t}) \\m{I} \\Big)\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#forward-process",
+    "href": "talks/content/sumo/presentation.html#forward-process",
+    "title": "",
+    "section": "Forward process",
+    "text": "Forward process\n\nForward NDP process"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#reverse-process",
+    "href": "talks/content/sumo/presentation.html#reverse-process",
+    "title": "",
+    "section": "Reverse process",
+    "text": "Reverse process\n\n\nExact reverse process \\[\n\\d \\v{x}_t = \\big[f(\\v{x}_t, t) - g^2(t) \\colorbox{orange}{$\\nabla_\\v{x} \\log p_t(\\v{x})$}\\big] \\d t + g(t) \\d \\bar{\\m{W}}_t,\\quad \\v{x}_T \\sim \\colorbox{lightgray}{$p_T$}\n\\]\n\n\nGenerative model \\[\n\\d \\v{x}_t = \\big[f(\\v{x}_t, t) - g^2(t) \\colorbox{orange}{$s_{\\theta^*}(\\v{x}_t, t)$}\\big] \\d t + g(t) \\d \\bar{\\m{W}}_t,\\quad \\v{x}_T \\sim \\colorbox{lightgray}{$p_{ref}$}\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#learning-the-score",
+    "href": "talks/content/sumo/presentation.html#learning-the-score",
+    "title": "",
+    "section": "Learning the score",
+    "text": "Learning the score\nThe minima of the Fisher divergence can be shown to be equivalent to \\[\n\\theta^* = \\textrm{argmin}_{\\theta}\\,\\mathbb{E}_{\\v{y}_0,\\v{y}_{t}} \\Big[\n     \\| s_{\\theta}(\\v{y}_{t}, \\m{X}, t) - \\nabla_{\\v{y}_t}\\log p_{t|0}(\\v{y}_{t}|\\v{y}_0)\\|^2\n\\Big]\n\\]\n\n\n\n\nScore network architecture\n\n\nEncode properties of stochastic processes in score network \\(s_\\theta\\):\n\ndimensionality invariance\nexchangeability"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#predictions",
+    "href": "talks/content/sumo/presentation.html#predictions",
+    "title": "",
+    "section": "Predictions",
+    "text": "Predictions\nWe use an algorithm similar to the one used for image inpainting by Lugmayr et al. (2022).\nThis allows us to condition samples on observed data:\n\n\n\n\nNeural Diffusion Process\n\n\n\n\n\n\n\nGaussian Processes"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#experiment-capturing-non-gaussian-posteriors",
+    "href": "talks/content/sumo/presentation.html#experiment-capturing-non-gaussian-posteriors",
+    "title": "",
+    "section": "Experiment: Capturing non-Gaussian posteriors",
+    "text": "Experiment: Capturing non-Gaussian posteriors\nConsider the following distribution over functions. Let \\(a \\sim \\c{U}[-1, 1]\\) then \\[\nf(x) = 0.0 \\text{ if } x < a\\text{, else } 1.0\n\\]"
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#experiment-image-regression",
+    "href": "talks/content/sumo/presentation.html#experiment-image-regression",
+    "title": "",
+    "section": "Experiment: Image Regression",
+    "text": "Experiment: Image Regression\nLearning complex covariances from data."
+  },
+  {
+    "objectID": "talks/content/sumo/presentation.html#references",
+    "href": "talks/content/sumo/presentation.html#references",
+    "title": "",
+    "section": "References",
+    "text": "References\n\n\nDutordoir, Vincent, Alan Saul, Ghahramani Zoubin, and Fergus Simpson. 2022. “Neural Diffusion Processes.” arXiv.\n\n\nHo, Jonathan, Ajay Jain, and Pieter Abbeel. 2020. “Denoising Diffusion Probabilistic Models.” Advances in Neural Information Processing Systems 33: 6840–51.\n\n\nHyvärinen, Aapo. 2005. “Estimation of Non-Normalized Statistical Models by Score Matching.” Journal of Machine Learning Research 6 (24): 695–709. http://jmlr.org/papers/v6/hyvarinen05a.html.\n\n\nLugmayr, Andreas, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, and Luc Van Gool. 2022. “RePaint: Inpainting Using Denoising Diffusion Probabilistic Models.” arXiv. https://doi.org/10.48550/arXiv.2201.09865.\n\n\nSong, Yang, and Stefano Ermon. 2019. “Generative Modeling by Estimating Gradients of the Data Distribution.” Advances in Neural Information Processing Systems 32.\n\n\nSong, Yang, Sahaj Garg, Jiaxin Shi, and Stefano Ermon. 2019. “Sliced Score Matching: A Scalable Approach to Density and Score Estimation,” May.\n\n\nSong, Yang, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, and Ben Poole. 2021. “Score-Based Generative Modeling Through Stochastic Differential Equations.” In International Conference on Learning Representations.\n\n\nVincent, Pascal. 2011. “A Connection Between Score Matching and Denoising Autoencoders.” Neural Computation 23 (7): 1661–74."
   }
 ]
