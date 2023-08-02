@@ -2,7 +2,7 @@
 about:
   id: hero-heading
   template: trestles
-  image: me.jpg
+  image: me2.jpeg
   links:
     - icon: twitter
       text: twitter

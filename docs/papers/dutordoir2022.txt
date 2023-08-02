@@ -1,8 +1,0 @@
-@InProceedings{dutordoir2022,
-  title = {Neural Diffusion Processes},
-  author = {Dutordoir, Vincent and Saul, Alan and Ghahramani, Zoubin and Simpson, Fergus},
-  url = {https://arxiv.org/abs/2206.03992},
-  booktitle = {International Conference of Machine Learning},
-  year = {2023},
-}
-
