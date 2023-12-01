@@ -1,14 +1,23 @@
+- name: Starting a new job at DeepMind in London. I'll be working on AI for science.
+  date: 2024-01-22
+
+- name: The event [NeurIPS@Cambridge 2023](https://www.neuripsmeetupcambridge.info/) is taking place on December 8th. I'm helping organizing it.
+  date: 2023-12-08
+
+- name: Our work on [Geometric Neural Diffusion Processes](https://arxiv.org/abs/2307.05431) was accepted at NeurIPS 2023.
+  date: 2023-09-01
+
 - name: Very happy to have three papers accepted at ICML 2023 on [Neural Diffusion Processes](https://arxiv.org/abs/2206.03992), [Memory-based Meta-Learning](https://arxiv.org/abs/2302.03067) and [Spherical-Orthogonal features](https://arxiv.org/abs/2304.14034).
   date: 2023-06-01
 
-- name: Helped organizing a local [NeurIPS meetup in Cambridge](https://www.neuripsmeetupcambridge.info/).
-  date: 2022-12-08
+# - name: Helped organizing a local [NeurIPS meetup in Cambridge](https://www.neuripsmeetupcambridge.info/).
+#   date: 2022-12-08
 
-- name: Was invited to give a talk at [GeNU 2022](https://genu.ai/2022/) in Copenhagen on diffusion models.
-  date: 2022-09-16
+# - name: Was invited to give a talk at [GeNU 2022](https://genu.ai/2022/) in Copenhagen on diffusion models.
+#   date: 2022-09-16
 
-- name: Gave a lecture at the Gaussian process summer school in Sheffield on [Spectral and Spherical Gaussian processes](https://gpss.cc/gpss22/slides/Vincent.html).
-  date: 2022-09-14
+# - name: Gave a lecture at the Gaussian process summer school in Sheffield on [Spectral and Spherical Gaussian processes](https://gpss.cc/gpss22/slides/Vincent.html).
+#   date: 2022-09-14
 
 - name: Start internship at DeepMind. I'll be spending the fall in London working on technical analysis of transformer models.
   date: 2022-09-01

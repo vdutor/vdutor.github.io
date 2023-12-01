@@ -30,3 +30,14 @@
     - name: BibTeX
       url: "/papers/dutordoir2022.txt"
   date: 2022-05-22
+
+- title: "Geometric Neural Diffusion Processes" 
+  authors: "Emile Mathieu, Vincent Dutordoir, Michael J. Hutchinson, Valentin De Bortoli, Yee Whye Teh, Richard E. Turner"
+  conference: "Neural Information Processing Systems (NeurIPS 2023)"
+  abstract: "Score-based diffusion models that can be used to learn a generative model of functions."
+  links:
+    - name: PDF
+      url: "https://arxiv.org/abs/2307.05431"
+    - name: BibTeX
+      url: "/papers/mathieu2023.txt"
+  date: 2023-09-01

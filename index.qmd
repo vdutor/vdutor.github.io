@@ -12,9 +12,6 @@ about:
       href: https://github.com/vdutor
     - text: "<i class='ai ai-google-scholar-square' style='color: gray'></i> Google scholar"
       href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
-    - icon: mailbox
-      text: Mail
-      href: https://scholar.google.be/citations?user=oqX6470AAAAJ&hl=en
 listing: 
   - id: paper-listing
     template: papers/papers.ejs
@@ -43,14 +40,15 @@ listing:
 
 :::{#hero-heading}
 
-Hi! I'm Vincent Dutordoir, a PhD student in Probabilistic Machine Learning at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
+Hi! I'm Vincent Dutordoir, a PhD candidate in Machine Learning at the University of Cambridge, working with professor [Zoubin Ghahramani](https://mlg.eng.cam.ac.uk/zoubin/) and [Carl Henrik Ek](http://carlhenrik.com/). 
 
-Prior to my PhD, I worked for a couple of years at [Secondmind](https://www.secondmind.ai/) as a machine learning researcher. I'm still affiliated to Secondmind on a part-time basis since starting my PhD. In fall 2022, I did an internship at [DeepMind](https://www.deepmind.com/).
+Prior to my PhD, I was a senior Research Scientist at [Secondmind](https://www.secondmind.ai/), a position I continued in a part-time capacity during my PhD.
 
-My research focuses on the intersection of statistical methods and deep learning, with applications in generative modelling and sequential decision making. Recently, I have been excited about defining [stochastic processes using denoising diffusion models](https://arxiv.org/abs/2206.03992).
+My research focuses on the intersection of statistical methods and deep learning, with applications in generative modelling and sequential decision making. Recently, I have been excited about defining stochastic processes using score-based diffusion models [[1]](https://arxiv.org/abs/2206.03992), [[2]](https://arxiv.org/abs/2307.05431).
 
-Besides my research, I love developing fullstack (data-centric) applications, and I help maintain a couple of opensource projects: [1](https://github.com/GPflow/GeometricKernels), [2](https://github.com/vdutor/fluid), [3](https://github.com/secondmind-labs/GPflux).
+<!-- Besides my research, I love developing fullstack (data-centric) applications, and I help maintain a couple of opensource projects: [1](https://github.com/GPflow/GeometricKernels), [2](https://github.com/vdutor/fluid), [3](https://github.com/secondmind-labs/GPflux). -->
 
+Feel free to reach out on `dutordoirv@gmail.com`.
 
 ::: {#socials}
 You can find some of my work on

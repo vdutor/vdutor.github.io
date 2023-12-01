@@ -10,13 +10,13 @@ website:
         text: Home
       - href: talks
         text: Talks
-      - href: notes
-        text: Notes
+      # - href: notes
+      #   text: Notes
   twitter-card:
      creator: "@vdutor"
   site-url: "https://vdutor.github.io/"
   page-footer:
-    center: "Last updated on 19 Jun 2023"
+    center: "Last updated on 1 Dec 2023"
       
 
   search: false

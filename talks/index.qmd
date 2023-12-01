@@ -8,6 +8,8 @@ A list of lectures or invited talks that I’ve given with links to slides or re
 
 |               |
 |---------------|
+| Spotlight talk at the Alan Turing Institute’s [Uncertainty Quantification for Generative Models Workshop](https://www.eventsforce.net/turingevents/frontend/reg/thome.csp?pageID=110064&eventID=287&traceRedir=2). [Slides](/talks/content/ati.pdf) |
+| Presentation for DeepMind's AI for Science team. [Slides](/talks/content/deepmind-talk.pdf) |
 | Reading group on Scalable Approaches to Self-Supervised Learning using Spectral Analysis in CBL in Cambridge. [Notes](https://hackmd.io/@vdutor/HJIEcNol3) |
 | Tutorial on Score-based generative modelling and Introduction to ongoing research for SUMO at Ghent University. [Slides (PDF)](/talks/content/neural_diffusion_processes_sumo.pdf). |
 
